@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Article {{ articleId }}</h1>
-    <p>Article details go here...</p>
-    <NuxtLink to="/articles">Back to list</NuxtLink>
+    <h1>{{ $t('article') }} {{ articleId }}</h1>
+    <p>...</p>
+    <NuxtLink :to="$localePath('articles')">{{ $t('back_to_list') }}</NuxtLink>
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Articles List</h1>
+    <h1>{{ $t('articles') }}</h1>
     <ul>
       <li v-for="article in articles" :key="article.id">
-        <NuxtLink :to="`/articles/${article.id}`">{{ article.title }}</NuxtLink>
+        <NuxtLink :to="$localePath(`/articles/${article.id}`)">{{ article.title }}</NuxtLink>
       </li>
     </ul>
   </div>
