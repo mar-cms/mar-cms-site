@@ -10,4 +10,15 @@ export default defineNuxtConfig({
     ],
     defaultLocale: "en",
   },
+  css: ["@/assets/css/global.css"],
+  app: {
+    head: {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.cdnfonts.com/css/switzer",
+        },
+      ],
+    },
+  },
 });
