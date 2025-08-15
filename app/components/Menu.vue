@@ -33,9 +33,9 @@
       </li>
       <li>
         <NuxtLink
-          :to="$localePath('articles')"
+          :to="$localePath('blog')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
-          >{{ $t("articles") }}</NuxtLink
+          >{{ $t("Blog") }}</NuxtLink
         >
       </li>
     </ul>

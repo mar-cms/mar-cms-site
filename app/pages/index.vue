@@ -1,16 +1,4 @@
 <template>
-  <nav class="floating-menu">
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li>
-        <NuxtLink :to="$localePath('articles')">{{ $t("articles") }}</NuxtLink>
-      </li>
-    </ul>
-  </nav>
-
   <section id="hero" class="section hero-section">
     <div class="hero-content">
       <h1>Your Hotel's Content, Reimagined</h1>
@@ -354,14 +342,6 @@
 import { onMounted } from "vue";
 
 onMounted(() => {
-  document.querySelectorAll(".floating-menu a").forEach((link) => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const target = document.querySelector(link.getAttribute("href"));
-      target.scrollIntoView({ behavior: "smooth" });
-    });
-  });
-
   const words = ["Unify your channels", "Boost direct bookings"];
   const changingWordElement = document.querySelector(".changing-word");
   let wordIndex = 0;
@@ -371,7 +351,7 @@ onMounted(() => {
     if (changingWordElement) {
       changingWordElement.textContent = words[wordIndex];
     }
-  }, 3000);
+  }, 4000);
 
   document.querySelectorAll(".faq-question").forEach((button) => {
     button.addEventListener("click", () => {
@@ -391,41 +371,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.floating-menu {
-  position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #000;
-  border-radius: 50px;
-  z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 10px 10px 10px 24px;
-}
-
-.floating-menu ul {
-  display: flex;
-  list-style: none;
-}
-
-.floating-menu ul li {
-  margin: 0 15px;
-}
-
-.floating-menu ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s;
-  height: 34px;
-  line-height: 34px;
-  display: flex;
-}
-
-.floating-menu ul li a:hover {
-  color: #bdbdbd;
-}
-
 .section {
   min-height: 100vh;
   display: flex;
@@ -498,7 +443,7 @@ p.subtitle {
 .changing-word {
   display: inline-block;
   position: relative;
-  animation: fadeInOut 3s infinite;
+  animation: fadeInOut 4s infinite;
   color: #7897ff;
 }
 
@@ -507,9 +452,17 @@ p.subtitle {
     opacity: 0;
     transform: translateY(10px);
   }
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
   50% {
     opacity: 1;
     transform: translateY(0);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(-5px);
   }
   100% {
     opacity: 0;
