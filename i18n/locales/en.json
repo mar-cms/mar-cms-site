@@ -1,5 +1,9 @@
 {
   "article": "Article",
+  "article_not_found": "Article not found",
   "articles": "Articles",
-  "back_to_list": "Back to list"
+  "back_to_blog": "Back to Blog",
+  "blog": "Blog",
+  "by": "By",
+  "Posted": "Posted"
 }

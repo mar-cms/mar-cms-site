@@ -1,5 +1,9 @@
 {
   "article": "Artigo",
+  "article_not_found": "Artigo não encontrado",
   "articles": "Artigos",
-  "back_to_list": "Voltar à lista"
+  "back_to_blog": "Voltar ao Blog",
+  "blog": "Blog",
+  "by": "Por",
+  "Posted": "Publicado em"
 }

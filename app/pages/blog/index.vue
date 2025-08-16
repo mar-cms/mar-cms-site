@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-4xl mx-auto px-4 mt-20 mb-20">
-    <h1 class="text-5xl mb-8">Blog</h1>
+  <section class="max-w-4xl mx-auto px-4 py-8 mt-20 mb-20">
+    <h1 class="text-5xl mb-8">{{ $t("Blog") }}</h1>
 
     <div class="flex flex-col gap-8">
       <!-- Featured -->
@@ -22,10 +22,14 @@
             <h2
               class="mt-2 text-xl font-semibold transition-colors duration-200"
             >
-              {{ article.title }}
+              {{
+                typeof article.title === "object"
+                  ? article.title[locale]
+                  : article.title
+              }}
             </h2>
             <time :datetime="article.date" class="text-gray-500 text-sm">
-              Posted {{ formatDate(article.date) }}
+              {{ $t("Posted") }} {{ formatDate(article.date) }}
             </time>
           </NuxtLink>
         </article>
@@ -47,10 +51,14 @@
               class="w-full h-[150px] object-cover rounded-md transition-transform duration-300 group-hover:scale-105"
             />
             <h3 class="mt-1 text-lg font-medium transition-colors duration-200">
-              {{ article.title }}
+              {{
+                typeof article.title === "object"
+                  ? article.title[locale]
+                  : article.title
+              }}
             </h3>
             <time :datetime="article.date" class="text-gray-500 text-sm">
-              Posted {{ formatDate(article.date) }}
+              {{ $t("Posted") }} {{ formatDate(article.date) }}
             </time>
           </NuxtLink>
         </article>
@@ -61,16 +69,19 @@
 
 <script setup>
 import { computed } from "vue";
+
+const { locale } = useI18n();
+
 import articles from "~/data/articles";
 
 const featuredArticles = computed(() => articles.slice(0, 2));
 const otherArticles = computed(() => articles.slice(2));
 
 const formatDate = (date) => {
-  return new Date(date).toLocaleDateString("en-US", {
+  return new Intl.DateTimeFormat(locale.value, {
+    year: "numeric",
     month: "long",
     day: "numeric",
-    year: "numeric",
-  });
+  }).format(new Date(date));
 };
 </script>
