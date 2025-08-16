@@ -134,57 +134,63 @@
       <div class="pricing-row">
         <div class="plan">
           <h3>Basic</h3>
-          <p class="price">29€<span>/month/user</span></p>
+          <!--<p class="price">29€<span>/month/user</span></p>-->
           <p class="description">For teams needing insight and control.</p>
           <ul>
-            <li>25 AI Credits</li>
+            <!--<li>25 AI Credits</li>-->
             <li>1 Communication profile</li>
             <li>Data analytics & KPIs</li>
             <li>Content checks: Discrepancies + Improvement suggestions</li>
           </ul>
+          <!--
           <p class="annual">
             Annual: <strong>278€/year/user</strong> <span>Save 20%</span>
           </p>
+          -->
           <a href="#" class="btn contrast">Start with Basic</a>
         </div>
 
         <div class="plan">
           <h3>Reviewer</h3>
-          <p class="price">99€<span>/month/user</span></p>
+          <!--<p class="price">99€<span>/month/user</span></p>-->
           <p class="description">
             For teams focused on review and improvement.
           </p>
           <ul>
-            <li>50 AI Credits</li>
+            <!--<li>50 AI Credits</li>-->
             <li>3 Communication profiles</li>
             <li>Everything in Basic, plus:</li>
             <li>Communication improvements</li>
             <li>Sentiment analysis</li>
             <li>Improvement insights</li>
           </ul>
+          <!--
           <p class="annual">
             Annual: <strong>950€/year/user</strong> <span>Save 20%</span>
           </p>
+          -->
           <a href="#" class="btn contrast">Get Reviewer Access</a>
         </div>
 
         <div class="plan">
           <h3>Creator</h3>
-          <p class="price">149€<span>/month/user</span></p>
+          <!--<p class="price">149€<span>/month/user</span></p>-->
           <p class="description">
             For high-performing teams ready to scale content and campaigns.
           </p>
           <ul>
-            <li>100 AI Credits</li>
+            <!--<li>100 AI Credits</li>-->
             <li>3 Communication profiles</li>
             <li>Everything in Reviewer, plus:</li>
             <li>Automatic implementation improvements</li>
             <li>Automatic replies to reviews</li>
             <li>Campaign manager for content creation and distribution</li>
           </ul>
+          <!--
           <p class="annual">
             Annual: <strong>1,430€/year/user</strong> <span>Save 20%</span>
           </p>
+          -->
           <a href="#" class="btn contrast">Become a Creator</a>
         </div>
       </div>
