@@ -7,21 +7,21 @@
         <NuxtLink
           :to="$localePath('/#hero')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
-          >Home</NuxtLink
+          >{{$t('menu_home')}}</NuxtLink
         >
       </li>
       <li>
         <NuxtLink
           :to="$localePath('/#features')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
-          >Features</NuxtLink
+          >{{$t('menu_features')}}</NuxtLink
         >
       </li>
       <li>
         <NuxtLink
           :to="$localePath('/#pricing')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
-          >Pricing</NuxtLink
+          >{{$t('menu_pricing')}}</NuxtLink
         >
       </li>
       <li>
@@ -31,12 +31,15 @@
           >FAQ</NuxtLink
         >
       </li>
-      <li>
-        <NuxtLink
+      <!--<li>
+         <NuxtLink
           :to="$localePath('blog')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
           >{{ $t("Blog") }}</NuxtLink
-        >
+        > 
+      </li>-->
+      <li>
+        <LanguageSwitcher />
       </li>
     </ul>
   </nav>

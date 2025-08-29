@@ -5,8 +5,9 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/i18n", "@nuxtjs/tailwindcss"],
   i18n: {
     locales: [
-      { code: "en", iso: "en-US", name: "English", file: "en.json" },
-      { code: "pt", iso: "pt-PT", name: "Português", file: "pt.json" },
+      { code: "en", iso: "en-US", name: "english", file: "en.json" },
+      { code: "de", iso: "de-DE", name: "german", file: "de.json" },
+      { code: "pt", iso: "pt-PT", name: "portuguese", file: "pt.json" },
     ],
     defaultLocale: "en",
   },

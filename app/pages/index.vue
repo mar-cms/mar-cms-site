@@ -1,28 +1,23 @@
 <template>
   <section id="hero" class="section hero-section">
     <div class="hero-content">
-      <h1>Your Hotel's Content, Reimagined</h1>
+      <h1>{{$t('main_title')}}</h1>
       <p class="subtitle">
-        The first AI-native content and campaign platform built for modern
-        hospitality.
+        {{$t('main_subtitle')}}
       </p>
       <p
         class="subtitle"
         style="
-          width: 549px;
           font-weight: 600;
-          text-align: right;
           margin-left: auto;
           margin-right: auto;
         "
       >
-        <span class="changing-word">Simplify content</span> without the manual
-        work.
+        <span class="changing-word">{{$t(changingWord)}}</span> {{$t('main_subtitle2_part2')}}
       </p>
       <div class="btn-container">
-        <a href="#" class="btn">Get Started Today</a>
-        <a href="#" class="btn outline">Book a Call with Our Team</a>
-      </div>
+        <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
+        <button class="btn outline" @click="bookCall()">{{$t('book_call')}}</button>      </div>
     </div>
     <div class="wave">
       <span></span>
@@ -32,16 +27,14 @@
   </section>
 
   <section id="features" class="section light-section">
-    <h1>FEATURES</h1>
-
-    <section class="features">
+    <h1>{{$t('features')}}</h1>
+    <section class="w-full">
       <div class="feature">
         <div class="image"></div>
         <div class="text">
-          <h3>AI-Native Communication Guidelines</h3>
+          <h3>{{$t('features_title')}}</h3>
           <p>
-            Generate custom brand and tone guidelines automatically. Refine them
-            as needed and ensure consistency across all touchpoints.
+            {{$t('features_subtitle')}}
           </p>
         </div>
       </div>
@@ -49,10 +42,9 @@
       <div class="feature reverse">
         <div class="image"></div>
         <div class="text">
-          <h3>Content Audits & Smart Optimization</h3>
+          <h3>{{$t('feature_content')}}</h3>
           <p>
-            Continuously scan your content across platforms. Get actionable
-            improvement suggestions or let Mar CMS automatically implement them.
+            {{$t('feature_content_description')}}
           </p>
         </div>
       </div>
@@ -60,10 +52,9 @@
       <div class="feature">
         <div class="image"></div>
         <div class="text">
-          <h3>Multilingual Content Generation</h3>
+          <h3>{{$t('feature_multilingual')}}</h3>
           <p>
-            Create SEO-optimized, multilingual content tailored to each guest
-            persona and channel, fully aligned with your brand voice.
+            {{$t('feature_multilingual_description')}}
           </p>
         </div>
       </div>
@@ -71,10 +62,9 @@
       <div class="feature reverse">
         <div class="image"></div>
         <div class="text">
-          <h3>Campaign Management in One Place</h3>
+          <h3>{{$t('feature_campaign')}}</h3>
           <p>
-            Plan, publish, and optimize campaigns across all digital platforms,
-            OTAs, your website, and social media from a single place.
+            {{$t('feature_campaign_description')}}
           </p>
         </div>
       </div>
@@ -82,11 +72,9 @@
       <div class="feature">
         <div class="image"></div>
         <div class="text">
-          <h3>Review Monitoring & Auto-Replies</h3>
+          <h3>{{$t('feature_review')}}</h3>
           <p>
-            Track guest reviews across platforms. Detect sentiment trends,
-            improvement opportunities, and reply automatically to reviews using
-            your brand’s tone.
+            {{$t('feature_review_description')}}
           </p>
         </div>
       </div>
@@ -94,10 +82,9 @@
       <div class="feature reverse">
         <div class="image"></div>
         <div class="text">
-          <h3>Centralized Analytics & KPIs</h3>
+          <h3>{{$t('feature_analytics')}}</h3>
           <p>
-            Access all content, campaign performance, and engagement insights in
-            one place, driven by real-time data.
+            {{$t('feature_analytics_description')}}
           </p>
         </div>
       </div>
@@ -105,10 +92,9 @@
   </section>
 
   <section id="video" class="section dark-section">
-    <h1>SEE IT IN ACTION</h1>
+    <h1>{{$t('video_title')}}</h1>
     <p class="subtitle">
-      See how hotels use Mar CMS to save time, improve content, and increase
-      bookings.
+      {{$t('video_subtitle')}}
     </p>
 
     <div
@@ -128,234 +114,206 @@
   </section>
 
   <section id="pricing" class="section light-section">
-    <h1>PRICING PLANS</h1>
+    <h1>{{$t('pricing_title')}}</h1>
 
     <section class="pricing">
       <div class="pricing-row">
         <div class="plan">
-          <h3>Basic</h3>
+          <h3>{{$t('pricing_basic')}}</h3>
           <!--<p class="price">29€<span>/month/user</span></p>-->
-          <p class="description">For teams needing insight and control.</p>
+          <p class="description">{{$t('pricing_basic_description')}}</p>
           <ul>
             <!--<li>25 AI Credits</li>-->
-            <li>1 Communication profile</li>
-            <li>Data analytics & KPIs</li>
-            <li>Content checks: Discrepancies + Improvement suggestions</li>
+            <li>{{$t('pricing_basic_feature_1')}}</li>
+            <li>{{$t('pricing_basic_feature_2')}}</li>
+            <li>{{$t('pricing_basic_feature_3')}}</li>
           </ul>
           <!--
           <p class="annual">
             Annual: <strong>278€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">Start with Basic</a>
+          <a href="#" class="btn contrast">{{$t('pricing_basic_start')}}</a>
         </div>
 
         <div class="plan">
-          <h3>Reviewer</h3>
+          <h3>{{$t('pricing_reviewer')}}</h3>
           <!--<p class="price">99€<span>/month/user</span></p>-->
           <p class="description">
-            For teams focused on review and improvement.
+            {{$t('pricing_reviewer_description')}}
           </p>
           <ul>
             <!--<li>50 AI Credits</li>-->
-            <li>3 Communication profiles</li>
-            <li>Everything in Basic, plus:</li>
-            <li>Communication improvements</li>
-            <li>Sentiment analysis</li>
-            <li>Improvement insights</li>
+            <li>{{$t('pricing_reviewer_feature_1')}}</li>
+            <li>{{$t('pricing_reviewer_feature_2')}}</li>
+            <li>{{$t('pricing_reviewer_feature_3')}}</li>
+            <li>{{$t('pricing_reviewer_feature_4')}}</li>
+            <li>{{$t('pricing_reviewer_feature_5')}}</li>
           </ul>
           <!--
           <p class="annual">
             Annual: <strong>950€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">Get Reviewer Access</a>
+          <a href="#" class="btn contrast">{{$t('pricing_reviewer_start')}}</a>
         </div>
 
         <div class="plan">
-          <h3>Creator</h3>
+          <h3>{{$t('pricing_creator')}}</h3>
           <!--<p class="price">149€<span>/month/user</span></p>-->
           <p class="description">
-            For high-performing teams ready to scale content and campaigns.
+            {{$t('pricing_reviewer_description')}}
           </p>
           <ul>
             <!--<li>100 AI Credits</li>-->
-            <li>3 Communication profiles</li>
-            <li>Everything in Reviewer, plus:</li>
-            <li>Automatic implementation improvements</li>
-            <li>Automatic replies to reviews</li>
-            <li>Campaign manager for content creation and distribution</li>
+            <li>{{$t('pricing_creator_feature_1')}}</li>
+            <li>{{$t('pricing_creator_feature_2')}}</li>
+            <li>{{$t('pricing_creator_feature_3')}}</li>
+            <li>{{$t('pricing_creator_feature_4')}}</li>
+            <li>{{$t('pricing_creator_feature_5')}}</li>
           </ul>
           <!--
           <p class="annual">
             Annual: <strong>1,430€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">Become a Creator</a>
+          <a href="#" class="btn contrast">{{$t('pricing_reviewer_start')}}</a>
         </div>
       </div>
     </section>
   </section>
 
   <section id="faq" class="section dark-section">
-    <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    <h1>{{$t('questions_title')}}</h1>
 
     <section class="faq">
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What is Mar CMS?
+          {{$t('question_1')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            Mar CMS is an AI-native content and campaign platform designed
-            specifically for hotels. It unifies content creation, optimization,
-            and distribution across all digital channels.
-          </p>
+          <p>{{$t('question_1_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What digital channels does Mar CMS support?
+          {{$t('question_2')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            Mar CMS works across your website, OTAs, social media platforms, and
-            more—over 5 channels in total.
-          </p>
+          <p>{{$t('question_2_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I manage multilingual content?
+          {{$t('question_3')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            Yes. You can generate and publish multilingual content tailored to
-            your brand, your guest personas, and each channel, all
-            SEO-optimized.
-          </p>
+          <p>{{$t('question_3_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is it hard to set up?
+          {{$t('question_4')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            No. Mar CMS is built to integrate easily with your current systems.
-            Most teams are fully up and running within hours.
-          </p>
+          <p>{{$t('question_4_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do AI Credits work?
+          {{$t('question_5')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            AI Credits are used for generating content, replies, and
-            recommendations. Each plan includes a monthly credit allowance based
-            on usage needs.
-          </p>
+          <p>{{$t('question_5_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I respond to guest reviews automatically?
+          {{$t('question_6')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            Yes. The Creator plan includes automatic replies to reviews, aligned
-            with your brand voice.
-          </p>
+          <p>{{$t('question_6_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is it secure?
+          {{$t('question_7')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            Absolutely. We follow strict security protocols and GDPR compliance
-            to ensure your data and guest information are safe.
-          </p>
+          <p>{{$t('question_7_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How many users can we onboard?
+          {{$t('question_8')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            You can onboard as many users as you need. Pricing is per user, and
-            plans can scale with your team.
-          </p>
+          <p>{{$t('question_8_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do I need technical knowledge to use it?
+          {{$t('question_9')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            No. Mar CMS is designed for hotel marketers and managers—no
-            technical background required.
-          </p>
+          <p>{{$t('question_9_answer')}}</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What if I just want to try it out?
+          {{$t('question_10')}}
           <span class="arrow" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" style="max-height: 0">
-          <p>
-            You can book a demo or start with the Basic plan to explore how Mar
-            CMS fits your team’s workflow.
-          </p>
+          <p>{{$t('question_10_answer')}}</p>
         </div>
       </div>
     </section>
   </section>
 
   <section id="actions" class="section light-section" style="min-height: unset">
+    <h1>{{$t('call_to_action_title')}}</h1>
+    <p class="subtitle">{{$t('call_to_action_subtitle')}}</p>
     <div class="btn-container">
-      <a href="#" class="btn">Get Started Today</a>
-      <a href="#" class="btn outline">Book a Call with Our Team</a>
+      <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
+      <button class="btn outline" @click="bookCall()">{{$t('book_call')}}</button>
     </div>
   </section>
 </template>
 
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
+
+const switchLocalePath = useSwitchLocalePath()
+const changingWord = ref('main_subtitle2_part1_unify');
 
 onMounted(() => {
-  const words = ["Unify your channels", "Boost direct bookings"];
+  const words = ["main_subtitle2_part1_unify", "main_subtitle2_part1_boost"];
   const changingWordElement = document.querySelector(".changing-word");
   let wordIndex = 0;
 
   setInterval(() => {
     wordIndex = (wordIndex + 1) % words.length;
     if (changingWordElement) {
-      changingWordElement.textContent = words[wordIndex];
+      changingWord.value = words[wordIndex];
     }
   }, 4000);
 
@@ -374,6 +332,15 @@ onMounted(() => {
     });
   });
 });
+
+function bookCall() {
+  window.open('https://calendar.app.google/4w6v9eSQLqn88kF98', '_blank');
+}
+
+function getStartedToday() {
+  console.log('hello')
+}
+
 </script>
 
 <style scoped>
@@ -396,6 +363,7 @@ onMounted(() => {
 }
 
 .hero-content {
+  width: 100%;
   z-index: 1;
 }
 
@@ -530,6 +498,10 @@ p.subtitle {
     text-align: center;
   }
 
+  .feature .text h3 {
+    font-size: 30px;
+  }
+
   .feature .image {
     width: 100%;
   }
@@ -609,7 +581,6 @@ p.subtitle {
 }
 
 .pricing {
-  padding: 2rem 1rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -706,12 +677,17 @@ p.subtitle {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    width: 100%;
+  }
 }
 
 .btn {
   display: inline-block;
-  background: #6b8dff;
-  color: white;
   padding: 0.8rem;
   border-radius: 20px;
   text-decoration: none;
@@ -719,20 +695,31 @@ p.subtitle {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.btn.contrast {
-  background: #fff;
-  color: #6b8dff;
+.btn.primary {
+  background: #6b8dff;
+  color: white;
 }
 
 .btn.outline {
-  border: 1px solid #6b8dff;
+  border-width: 0;
   background: transparent;
   color: #6b8dff;
 }
 
+.btn.outline:hover {
+  border: 0px;
+}
+
 .btn:hover {
-  background: #0056b3;
+  background-color: white;
+  color: black;
   transform: translateY(-2px);
+  border: 1px solid black;
+}
+
+.btn.contrast {
+  background: #fff;
+  color: #6b8dff;
 }
 
 section .wave {
