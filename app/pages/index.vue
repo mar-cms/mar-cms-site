@@ -30,7 +30,7 @@
     <h1>{{$t('features')}}</h1>
     <section class="w-full">
       <div class="feature">
-        <div class="image"></div>
+        <img class="image" src="~/assets/images/communication_styles.png"></img>
         <div class="text">
           <h3>{{$t('features_title')}}</h3>
           <p>
@@ -40,7 +40,7 @@
       </div>
 
       <div class="feature reverse">
-        <div class="image"></div>
+        <img class="image" src="~/assets/images/content_analysis.png"></img>
         <div class="text">
           <h3>{{$t('feature_content')}}</h3>
           <p>
@@ -50,7 +50,7 @@
       </div>
 
       <div class="feature">
-        <div class="image"></div>
+        <img class="image" src="~/assets/images/platform_versions.png"></img>
         <div class="text">
           <h3>{{$t('feature_multilingual')}}</h3>
           <p>
@@ -60,7 +60,7 @@
       </div>
 
       <div class="feature reverse">
-        <div class="image"></div>
+        <img class="image" src="~/assets/images/campaign_manager.png"></img>
         <div class="text">
           <h3>{{$t('feature_campaign')}}</h3>
           <p>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="feature">
+      <!-- <div class="feature">
         <div class="image"></div>
         <div class="text">
           <h3>{{$t('feature_review')}}</h3>
@@ -77,10 +77,10 @@
             {{$t('feature_review_description')}}
           </p>
         </div>
-      </div>
+      </div> -->
 
-      <div class="feature reverse">
-        <div class="image"></div>
+      <div class="feature">
+        <img class="image" src="~/assets/images/dashboards.png"></img>
         <div class="text">
           <h3>{{$t('feature_analytics')}}</h3>
           <p>
@@ -133,7 +133,7 @@
             Annual: <strong>278€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">{{$t('pricing_basic_start')}}</a>
+          <button class="btn contrast" @click="bookCall()">{{$t('pricing_basic_start')}}</button>
         </div>
 
         <div class="plan">
@@ -155,7 +155,7 @@
             Annual: <strong>950€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">{{$t('pricing_reviewer_start')}}</a>
+          <button class="btn contrast" @click="bookCall()">{{$t('pricing_reviewer_start')}}</button>
         </div>
 
         <div class="plan">
@@ -177,7 +177,7 @@
             Annual: <strong>1,430€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <a href="#" class="btn contrast">{{$t('pricing_reviewer_start')}}</a>
+          <button class="btn contrast" @click="bookCall()">{{$t('pricing_reviewer_start')}}</button>
         </div>
       </div>
     </section>
@@ -303,10 +303,10 @@
 import { onMounted, ref } from "vue";
 
 const switchLocalePath = useSwitchLocalePath()
-const changingWord = ref('main_subtitle2_part1_unify');
+const changingWord = ref('main_subtitle2_part1_simplify');
 
 onMounted(() => {
-  const words = ["main_subtitle2_part1_unify", "main_subtitle2_part1_boost"];
+  const words = ["main_subtitle2_part1_unify", "main_subtitle2_part1_boost", "main_subtitle2_part1_simplify"];
   const changingWordElement = document.querySelector(".changing-word");
   let wordIndex = 0;
 
@@ -454,6 +454,8 @@ p.subtitle {
   display: flex;
   margin-bottom: 6rem;
   gap: 4rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature.reverse {
@@ -461,8 +463,8 @@ p.subtitle {
 }
 
 .feature .image {
-  width: 400px;
-  height: 300px;
+  max-width: 600px;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
@@ -710,6 +712,11 @@ p.subtitle {
   border: 0px;
 }
 
+.btn.contrast {
+  background: #fff;
+  color: #6b8dff;
+}
+
 .btn:hover {
   background-color: white;
   color: black;
@@ -717,10 +724,6 @@ p.subtitle {
   border: 1px solid black;
 }
 
-.btn.contrast {
-  background: #fff;
-  color: #6b8dff;
-}
 
 section .wave {
   position: absolute;
