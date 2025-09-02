@@ -2,7 +2,12 @@
   <nav
     class="fixed top-5 left-1/2 transform -translate-x-1/2 bg-black rounded-full shadow-lg px-6 py-2 z-50"
   >
-    <ul class="flex list-none gap-6">
+    <ul class="flex list-none gap-6 items-center">
+      <li class="text-white flex items-center gap-1">
+        <img class="logo" src="~/assets/images/logo.png"></img>
+        <div class="font-bold">MAR</div>
+        <div>CMS</div>
+      </li>
       <li>
         <NuxtLink
           :to="$localePath('/#hero')"
@@ -69,3 +74,8 @@ onMounted(() => {
   });
 });
 </script>
+<style scoped>
+.logo {
+  width: 42px;
+}
+</style>
