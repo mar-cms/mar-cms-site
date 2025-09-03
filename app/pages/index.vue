@@ -91,7 +91,7 @@
     </section>
   </section>
 
-  <section id="video" class="section dark-section">
+  <!-- <section id="video" class="section dark-section">
     <h1>{{$t('video_title')}}</h1>
     <p class="subtitle">
       {{$t('video_subtitle')}}
@@ -111,7 +111,7 @@
         allowfullscreen
       ></iframe>
     </div>
-  </section>
+  </section> -->
 
   <section id="pricing" class="section light-section">
     <h1>{{$t('pricing_title')}}</h1>
@@ -506,6 +506,10 @@ p.subtitle {
 
   .feature .image {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
 
