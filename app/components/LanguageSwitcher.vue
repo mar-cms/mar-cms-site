@@ -1,9 +1,9 @@
 <template>
-  <div class="relative inline-block text-center">
+  <div v-if="!horizontal" class="relative inline-block text-center">
     <select
       v-model="selectedLang"
       @change="handleLangChange"
-      class="appearance-none bg-black font-bold bg-opacity-10 text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      class="text-2xl"
     >
       <option
         v-for="lang in availableLocales"
@@ -15,9 +15,16 @@
       </option>
     </select>
   </div>
+  <div v-if="horizontal" class="flex items-center justify-center gap-6 text-4xl">
+    <div v-for="lang in availableLocales"
+        :key="lang.code"
+       @click="setLocale(lang.code)"
+      >{{ lang.flag }}</div>
+  </div>
 </template>
-<script setup>
+<script setup lang="ts">
 
+const { horizontal } = defineProps<{ horizontal: boolean }>();
 const { locale, locales, setLocale } = useI18n();
 const selectedLang = ref(locale.value);
 

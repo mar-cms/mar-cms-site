@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <UApp>
     <Menu />
     <NuxtPage />
-  </div>
+  </UApp>
 </template>
 
 <script setup>

@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import "@nuxt/ui";
+
+:root {
+  --primary-color: #5692f5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Univia Pro", sans-serif;
+  scroll-behavior: smooth;
+}

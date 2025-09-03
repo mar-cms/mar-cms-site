@@ -17,7 +17,7 @@
       </p>
       <div class="btn-container">
         <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
-        <button class="btn outline" @click="bookCall()">{{$t('book_call')}}</button>      </div>
+        <button class="btn contrast" @click="bookCall()">{{$t('book_call')}}</button>      </div>
     </div>
     <div class="wave">
       <span></span>
@@ -468,7 +468,7 @@ p.subtitle {
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
-  background-color: #6b8dff;
+  background-color: var(--primary-color);
 }
 
 .feature .text {
@@ -602,7 +602,7 @@ p.subtitle {
 .pricing .plan {
   flex: 1 1 300px;
   color: #fff;
-  background: #6b8dff;
+  background: var(--primary-color);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -612,7 +612,7 @@ p.subtitle {
 }
 
 .pricing .plan.featured {
-  border: 2px solid #6b8dff;
+  border: 2px solid var(--primary-color);
 }
 
 .pricing .plan h3 {
@@ -698,14 +698,14 @@ p.subtitle {
 }
 
 .btn.primary {
-  background: #6b8dff;
+  background: var(--primary-color);
   color: white;
 }
 
 .btn.outline {
   border-width: 0;
   background: transparent;
-  color: #6b8dff;
+  color: var(--primary-color);
 }
 
 .btn.outline:hover {
@@ -714,7 +714,7 @@ p.subtitle {
 
 .btn.contrast {
   background: #fff;
-  color: #6b8dff;
+  color: var(--primary-color);
 }
 
 .btn:hover {
@@ -731,7 +731,7 @@ section .wave {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #6b8dff;
+  background: var(--primary-color);
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
 }

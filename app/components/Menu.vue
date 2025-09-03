@@ -1,13 +1,13 @@
 <template>
   <nav
-    class="fixed top-5 left-1/2 transform -translate-x-1/2 bg-black rounded-full shadow-lg px-6 py-2 z-50"
+    class="navbar flex gap-6 justify-between fixed top-5 left-1/2 transform -translate-x-1/2 bg-black rounded-full shadow-lg px-6 py-2 z-50"
   >
-    <ul class="flex list-none gap-6 items-center">
-      <li class="text-white flex items-center gap-1">
-        <img class="logo" src="~/assets/images/logo.png"></img>
-        <div class="font-bold">MAR</div>
-        <div>CMS</div>
-      </li>
+    <div class="text-white flex items-center gap-1">
+      <img class="logo" src="~/assets/images/logo.png"></img>
+      <div class="font-bold text-xl">MAR</div>
+      <div class="text-xl">CMS</div>
+    </div>
+    <ul class="hidden md:flex list-none gap-6 items-center">
       <li>
         <NuxtLink
           :to="$localePath('/#hero')"
@@ -47,7 +47,54 @@
         <LanguageSwitcher />
       </li>
     </ul>
-  </nav>
+    <UModal class="md:hidden text-white" v-model:open="isOpen">
+      <UButton
+        icon="i-heroicons-bars-3-20-solid"
+        size="lg"
+        variant="ghost"
+        color="white"
+        class="text-white"
+        aria-label="Open menu"
+      />
+
+      <template #content>
+        <ul class="flex flex-col gap-6 text-center">
+          <li>
+            <NuxtLink
+              :to="$localePath('/#hero')"
+              class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
+              @click="closeMenu()"
+            >{{$t('menu_home')}}</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="$localePath('/#features')"
+              class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
+              @click="closeMenu()"
+            >{{$t('menu_features')}}</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="$localePath('/#pricing')"
+              class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
+              @click="closeMenu()"
+              >{{$t('menu_pricing')}}</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              :to="$localePath('/#faq')"
+              class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
+              @click="closeMenu()"
+              >FAQ</NuxtLink>
+          </li>
+          <li>
+            <LanguageSwitcher :horizontal="true" @click="closeMenu()"/>
+          </li>
+        </ul>
+      </template>
+    </UModal>
+  </nav> 
 </template>
 
 <script setup>
@@ -56,6 +103,12 @@ import { onMounted } from "vue";
 
 const router = useRouter();
 const route = useRoute();
+
+const isOpen = ref(false);
+
+const closeMenu = () => {
+  isOpen.value = false;
+};
 
 onMounted(() => {
   document.querySelectorAll("nav a").forEach((link) => {
@@ -77,5 +130,11 @@ onMounted(() => {
 <style scoped>
 .logo {
   width: 42px;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 90%;
+  }
 }
 </style>
