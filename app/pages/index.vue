@@ -28,7 +28,7 @@
 
   <section id="features" class="section light-section">
     <h1>{{$t('features')}}</h1>
-    <section class="w-full">
+    <section class="section">
       <div class="feature">
         <img class="image" src="~/assets/images/communication_styles.png"></img>
         <div class="text">
@@ -113,7 +113,7 @@
     </div>
   </section> -->
 
-  <section id="pricing" class="section light-section">
+  <section id="pricing" class="section dark-section ">
     <h1>{{$t('pricing_title')}}</h1>
 
     <section class="pricing">
@@ -183,7 +183,7 @@
     </section>
   </section>
 
-  <section id="faq" class="section dark-section">
+  <section id="faq" class="section light-section">
     <h1>{{$t('questions_title')}}</h1>
 
     <section class="faq">
@@ -289,12 +289,12 @@
     </section>
   </section>
 
-  <section id="actions" class="section light-section" style="min-height: unset">
+  <section id="actions" class="section dark-section" style="min-height: unset">
     <h1>{{$t('call_to_action_title')}}</h1>
     <p class="subtitle">{{$t('call_to_action_subtitle')}}</p>
     <div class="btn-container">
       <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
-      <button class="btn outline" @click="bookCall()">{{$t('book_call')}}</button>
+      <button class="btn contrast" @click="bookCall()">{{$t('book_call')}}</button>
     </div>
   </section>
 </template>

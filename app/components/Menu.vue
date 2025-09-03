@@ -132,7 +132,7 @@ onMounted(() => {
   width: 42px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .navbar {
     width: 90%;
   }
