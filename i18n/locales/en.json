@@ -13,7 +13,7 @@
   "main_subtitle2_part1_unify": "Unify your channels",
   "main_subtitle2_part1_boost": "Improve performance across both direct and OTA bookings",
   "main_subtitle2_part1_simplify": "Simplify content",
-  "main_subtitle2_part2": "All without the manual work.",
+  "main_subtitle2_part2": "all without the manual work.",
   "simplify_content_without_the_manual_work.": "Simplify content without the manual work.",
   "features": "FEATURES",
   "features_title": "AI-Native Communication Guidelines",
@@ -81,5 +81,6 @@
   "menu_pricing": "Pricing",
   "language_english": "English",
   "language_portuguese": "Portuguese",
-  "language_german": "German"
+  "language_german": "German",
+  "contact_us": "Contact Us"
 }

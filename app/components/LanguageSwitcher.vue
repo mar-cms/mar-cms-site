@@ -34,7 +34,7 @@ watch(locale, (newLocale) => {
 
 const availableLocales = computed(() => {
   const localeFlags = {
-    'en': '🇺🇸',
+    'en': '🇬🇧',
     'pt': '🇵🇹',
     'de': '🇩🇪',
     'fr': '🇫🇷',
@@ -47,16 +47,14 @@ const availableLocales = computed(() => {
   }));
 });
 
-const handleLangChange = (event) => {
+const handleLangChange = (event: any) => {
   const newLocale = event.target.value;
   setLocale(newLocale);
 };
 </script>
-<style scoped>
+<style lang="css" scoped>
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
+  outline: unset;
 }
 </style>
+

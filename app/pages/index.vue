@@ -119,7 +119,7 @@
     <section class="pricing">
       <div class="pricing-row">
         <div class="plan">
-          <h3>{{$t('pricing_basic')}}</h3>
+          <h3 class="text-center">{{$t('pricing_basic')}}</h3>
           <!--<p class="price">29€<span>/month/user</span></p>-->
           <p class="description">{{$t('pricing_basic_description')}}</p>
           <ul>
@@ -137,7 +137,7 @@
         </div>
 
         <div class="plan">
-          <h3>{{$t('pricing_reviewer')}}</h3>
+          <h3 class="text-center">{{$t('pricing_reviewer')}}</h3>
           <!--<p class="price">99€<span>/month/user</span></p>-->
           <p class="description">
             {{$t('pricing_reviewer_description')}}
@@ -146,9 +146,9 @@
             <!--<li>50 AI Credits</li>-->
             <li>{{$t('pricing_reviewer_feature_1')}}</li>
             <li>{{$t('pricing_reviewer_feature_2')}}</li>
-            <li>{{$t('pricing_reviewer_feature_3')}}</li>
-            <li>{{$t('pricing_reviewer_feature_4')}}</li>
-            <li>{{$t('pricing_reviewer_feature_5')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_reviewer_feature_3')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_reviewer_feature_4')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_reviewer_feature_5')}}</li>
           </ul>
           <!--
           <p class="annual">
@@ -159,25 +159,26 @@
         </div>
 
         <div class="plan">
-          <h3>{{$t('pricing_creator')}}</h3>
+          <h3 class="text-center">{{$t('pricing_creator')}}</h3>
           <!--<p class="price">149€<span>/month/user</span></p>-->
           <p class="description">
-            {{$t('pricing_reviewer_description')}}
+            {{$t('pricing_creator_description')}}
           </p>
           <ul>
             <!--<li>100 AI Credits</li>-->
             <li>{{$t('pricing_creator_feature_1')}}</li>
             <li>{{$t('pricing_creator_feature_2')}}</li>
-            <li>{{$t('pricing_creator_feature_3')}}</li>
-            <li>{{$t('pricing_creator_feature_4')}}</li>
-            <li>{{$t('pricing_creator_feature_5')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_creator_feature_3')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_creator_feature_4')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_creator_feature_5')}}</li>
+            
           </ul>
           <!--
           <p class="annual">
             Annual: <strong>1,430€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <button class="btn contrast" @click="bookCall()">{{$t('pricing_reviewer_start')}}</button>
+          <button class="btn contrast" @click="bookCall()">{{$t('pricing_creator_start')}}</button>
         </div>
       </div>
     </section>
@@ -302,11 +303,10 @@
 <script setup>
 import { onMounted, ref } from "vue";
 
-const switchLocalePath = useSwitchLocalePath()
 const changingWord = ref('main_subtitle2_part1_simplify');
 
 onMounted(() => {
-  const words = ["main_subtitle2_part1_unify", "main_subtitle2_part1_boost", "main_subtitle2_part1_simplify"];
+  const words = ["main_subtitle2_part1_simplify", "main_subtitle2_part1_unify", "main_subtitle2_part1_boost"];
   const changingWordElement = document.querySelector(".changing-word");
   let wordIndex = 0;
 
@@ -315,7 +315,7 @@ onMounted(() => {
     if (changingWordElement) {
       changingWord.value = words[wordIndex];
     }
-  }, 4000);
+  }, 6000);
 
   document.querySelectorAll(".faq-question").forEach((button) => {
     button.addEventListener("click", () => {
@@ -411,14 +411,13 @@ p.subtitle {
 .dark-section {
   background-color: #0a0a0a;
   color: #ffffff;
-  text-align: center;
 }
 
 .changing-word {
   display: inline-block;
   position: relative;
-  animation: fadeInOut 4s infinite;
-  color: #7897ff;
+  animation: fadeInOut 6s infinite;
+  color: var(--primary-color);
 }
 
 @keyframes fadeInOut {
@@ -587,7 +586,6 @@ p.subtitle {
 }
 
 .pricing {
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -661,6 +659,10 @@ p.subtitle {
   left: 0;
   color: #dbe3ff;
   font-size: 0.9rem;
+}
+
+.pricing ul li.second-level::before {
+  content: "-";
 }
 
 .pricing .annual {

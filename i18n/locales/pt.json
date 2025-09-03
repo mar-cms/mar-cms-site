@@ -13,7 +13,7 @@
   "main_subtitle2_part1_unify": "Una os seus canais",
   "main_subtitle2_part1_boost": "Aumente as reservas diretas",
   "main_subtitle2_part1_simplify": "Simplifique o conteúdo",
-  "main_subtitle2_part2": "Tudo sem trabalho manual.",
+  "main_subtitle2_part2": "tudo sem trabalho manual.",
   "simplify_content_without_the_manual_work.": "Simplifique o conteúdo sem o trabalho manual.",
   "features": "FUNCIONALIDADES",
   "features_title": "Diretrizes de Comunicação Nativas de IA",
@@ -81,5 +81,6 @@
   "menu_pricing": "Preços",
   "language_english": "Inglês",
   "language_portuguese": "Português",
-  "language_german": "Alemão"
+  "language_german": "Alemão",
+  "contact_us": "Contacte-nos"
 }

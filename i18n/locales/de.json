@@ -13,7 +13,7 @@
   "main_subtitle2_part1_unify": "Ihre Kanäle vereinen",
   "main_subtitle2_part1_boost": "Direktbuchungen steigern",
   "main_subtitle2_part1_simplify": "Inhalte vereinfachen",
-  "main_subtitle2_part2": "Alles ohne manuelle Arbeit.",
+  "main_subtitle2_part2": "alles ohne manuelle Arbeit.",
   "simplify_content_without_the_manual_work.": "Content ohne manuellen Aufwand vereinfachen.",
   "features": "FUNKTIONEN",
   "features_title": "KI-native Kommunikationsrichtlinien",
@@ -81,5 +81,6 @@
   "menu_pricing": "Preispläne",
   "language_english": "Englisch",
   "language_portuguese": "Portugiesisch",
-  "language_german": "Deutsch"
+  "language_german": "Deutsch",
+  "contact_us": "Contact Us"
 }
