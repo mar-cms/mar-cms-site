@@ -295,23 +295,22 @@
 
   <section id="contact" class="section dark-section" style="min-height: unset">
     <div>
-      <h1 class="font-bold">{{$t('call_to_action_title')}}</h1>
+      <h1 class="font-bold text-center">{{$t('call_to_action_title')}}</h1>
       <div class="btn-container">
         <BookCallButton />
       </div>
     </div>
-    <div class="my-10 border-t-1 w-full text-gray-400"></div>
-    <div class="flex w-full">
-      <div class="w-1/6 flex items-center flex-col">
+    <div class="mt-10 flex w-full flex-wrap-reverse md:flex-nowrap gap-8 justify-center md:justify-start">
+      <div class="flex flex-col md:w-3/4 items-center md:items-start justify-center md:justify-start">
         <img src="~/assets/images/logo.png" class="w-24"></img>
         <div class="text-2xl"><span class="font-bold">MAR</span> CMS</div>
+        <div class="text-gray-400 text-center mt-2">© 2025 MAR CMS Technologies. All rights reserved.</div>
       </div>
-      <div class="flex-1 flex gap-4 items-center justify-center text-gray-400">
-        <a href="https://www.linkedin.com/company/mar-cms" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/themarcms?igsh=MWlybjIycHk4a2VuNA==" target="_blank">Instagram</a>
-      </div>
-      <div class="flex items-center w-1/6 text-gray-400 justify-center">
-        contact@mar-cms.com
+      <div class="flex flex-col md:items-start md:w-1/4 text-gray-400 justify-center items-center">
+        <div class="text-2xl font-bold text-white">{{$t('contact')}}</div>
+        <div class="flex justify-center items-center gap-2"><UIcon name="i-lucide-mail" class="size-5" />contact@mar-cms.com</div>
+        <div class="flex justify-center items-center gap-2"><UIcon name="i-lucide-linkedin" class="size-5" /><a href="https://www.linkedin.com/company/mar-cms" target="_blank">linkedin.com/company/mar-cms</a></div>
+        <div class="flex justify-center items-center  gap-2"><UIcon name="i-lucide-instagram" class="size-5" /><a href="https://www.instagram.com/themarcms?igsh=MWlybjIycHk4a2VuNA==" target="_blank">instagram.com/themarcms</a></div>
       </div>
     </div>
   </section>

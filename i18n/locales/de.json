@@ -59,7 +59,7 @@
   "question_1": "Was ist Mar CMS?",
   "question_1_answer": "Mar CMS ist eine KI-native Content- und Kampagnenplattform, die speziell für Hotels entwickelt wurde. Sie vereint Content-Erstellung, Optimierung und Verteilung über alle digitalen Kanäle hinweg.",
   "question_2": "Welche digitalen Kanäle unterstützt Mar CMS?",
-  "question_2_answer": "Mar CMS funktioniert auf Ihrer Website, OTAs, Social-Media-Plattformen und mehr—insgesamt über 5 Kanäle.",
+  "question_2_answer": "Mar CMS funktioniert auf Ihrer Website, OTAs, Social-Media-Plattformen und mehr, insgesamt über 5 Kanäle.",
   "question_3": "Kann ich mehrsprachigen Content verwalten?",
   "question_3_answer": "Ja. Sie können mehrsprachigen Content generieren und veröffentlichen, der auf Ihre Marke, Ihre Gästepersonas und jeden Kanal zugeschnitten und SEO-optimiert ist.",
   "question_4": "Ist die Einrichtung schwierig?",
@@ -73,7 +73,7 @@
   "question_8": "Wie viele Nutzer können wir an Bord nehmen?",
   "question_8_answer": "Sie können so viele Nutzer an Bord nehmen, wie Sie benötigen. Die Preise sind pro Nutzer, und die Pläne können mit Ihrem Team skalieren.",
   "question_9": "Benötige ich technisches Wissen, um es zu nutzen?",
-  "question_9_answer": "Nein. Mar CMS wurde für Hotel-Marketingfachleute und Manager entwickelt—kein technischer Hintergrund erforderlich.",
+  "question_9_answer": "Nein. Mar CMS wurde für Hotel-Marketingfachleute und Manager entwickelt. Kein technischer Hintergrund erforderlich.",
   "question_10": "Was ist, wenn ich es nur ausprobieren möchte?",
   "question_10_answer": "Sie können eine Demo buchen oder mit dem Basis-Plan starten, um zu erkunden, wie Mar CMS zu den Arbeitsabläufen Ihres Teams passt.",
   "call_to_action_title": "Bereit loszulegen?",
@@ -84,5 +84,5 @@
   "language_english": "Englisch",
   "language_portuguese": "Portugiesisch",
   "language_german": "Deutsch",
-  "contact": "Kontakt"
+  "contact": "Kontakts"
 }
