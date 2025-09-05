@@ -1,19 +1,5 @@
 <template>
   <div v-if="!horizontal" class="relative inline-block text-center">
-    <!-- <select
-      v-model="selectedLang"
-      @change="handleLangChange"
-      class="text-2xl"
-    >
-      <option
-        v-for="lang in availableLocales"
-        :key="lang.code"
-        :value="lang.code"
-
-      >
-        {{ lang.flag }}
-      </option>
-    </select> -->
     <USelect
       v-model="selectedLang"
       v-on:update:model-value="setLocale($event)"

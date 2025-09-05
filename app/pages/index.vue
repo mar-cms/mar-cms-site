@@ -463,6 +463,7 @@ p.subtitle {
   gap: 4rem;
   justify-content: center;
   align-items: center;
+  margin: 0 10rem 6rem 10rem;
 }
 
 .feature.reverse {
@@ -501,6 +502,7 @@ p.subtitle {
   .feature {
     flex-direction: column !important;
     text-align: center;
+    margin: 0;
   }
 
   .feature .text {

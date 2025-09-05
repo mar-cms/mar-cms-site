@@ -14,11 +14,13 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   app: {
     head: {
+      title: 'Mar CMS',
       link: [
         {
           rel: "stylesheet",
           href: "https://fonts.cdnfonts.com/css/switzer",
         },
+        { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       ],
     },
   },
