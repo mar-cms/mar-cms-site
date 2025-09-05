@@ -1,5 +1,5 @@
 <template>
-  <button class="btn primary text-xl" @click="bookCall()">{{$t('book_call')}}</button>
+  <button class="btn primary text-xl cursor-pointer" @click="bookCall()">{{$t('book_call')}}</button>
 </template>
 <script setup>
   const runtimeConfig = useRuntimeConfig();
