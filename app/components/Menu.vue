@@ -12,6 +12,7 @@
         <NuxtLink
           :to="$localePath('/#hero')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
+          @click="track('hero')"
           >{{$t('menu_home')}}</NuxtLink
         >
       </li>
@@ -19,6 +20,7 @@
         <NuxtLink
           :to="$localePath('/#features')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
+          @click="track('features')"
           >{{$t('menu_features')}}</NuxtLink
         >
       </li>
@@ -26,6 +28,7 @@
         <NuxtLink
           :to="$localePath('/#pricing')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
+          @click="track('pricing')"
           >{{$t('menu_pricing')}}</NuxtLink
         >
       </li>
@@ -33,16 +36,18 @@
         <NuxtLink
           :to="$localePath('/#faq')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
+          @click="track('faq')"
           >FAQ</NuxtLink
         >
       </li>
-      <!--<li>
+      <li>
          <NuxtLink
-          :to="$localePath('blog')"
+          :to="$localePath('/#contact')"
           class="text-white font-bold h-8 flex items-center hover:text-gray-300 transition-colors"
-          >{{ $t("Blog") }}</NuxtLink
+          @click="track('contact')"
+          >{{ $t("contact") }}</NuxtLink
         > 
-      </li>-->
+      </li>
       <li>
         <LanguageSwitcher />
       </li>
@@ -52,7 +57,6 @@
         icon="i-heroicons-bars-3-20-solid"
         size="lg"
         variant="ghost"
-        color="white"
         class="text-white"
         aria-label="Open menu"
       />
@@ -63,21 +67,21 @@
             <NuxtLink
               :to="$localePath('/#hero')"
               class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
-              @click="closeMenu()"
+              @click="track('hero'); closeMenu()"
             >{{$t('menu_home')}}</NuxtLink>
           </li>
           <li>
             <NuxtLink
               :to="$localePath('/#features')"
               class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
-              @click="closeMenu()"
+              @click="track('features'); closeMenu()"
             >{{$t('menu_features')}}</NuxtLink>
           </li>
           <li>
             <NuxtLink
               :to="$localePath('/#pricing')"
               class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
-              @click="closeMenu()"
+              @click="track('pricing'); closeMenu()"
               >{{$t('menu_pricing')}}</NuxtLink
             >
           </li>
@@ -85,8 +89,16 @@
             <NuxtLink
               :to="$localePath('/#faq')"
               class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
-              @click="closeMenu()"
+              @click="track('faq'); closeMenu()"
               >FAQ</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="$localePath('/#contact')"
+              class="text-xl font-bold p-2 block hover:text-gray-300 transition-colors"
+              @click="track('contact'); closeMenu()"
+              >{{ $t("contact") }}</NuxtLink
+            > 
           </li>
           <li>
             <LanguageSwitcher :horizontal="true" @click="closeMenu()"/>
@@ -97,12 +109,13 @@
   </nav> 
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useRouter, useRoute } from "vue-router";
 import { onMounted } from "vue";
 
 const router = useRouter();
 const route = useRoute();
+const { gtag } = useGtag();
 
 const isOpen = ref(false);
 
@@ -126,13 +139,17 @@ onMounted(() => {
     });
   });
 });
+
+function track(navigate: string) {
+  gtag('event', `Navigate to ${navigate}`);
+}
 </script>
 <style scoped>
 .logo {
   width: 42px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1480px) {
   .navbar {
     width: 90%;
   }

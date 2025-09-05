@@ -7,7 +7,7 @@
   "by": "Von",
   "Posted": "Veröffentlicht",
   "get_started_today": "Jetzt starten",
-  "book_call": "Einen Anruf mit unserem Team buchen",
+  "book_call": "Einen Anruf",
   "main_title": "Der Content Ihres Hotels, neu gedacht",
   "main_subtitle": "Die erste KI-native Content- und Kampagnenplattform, entwickelt für die moderne Hotellerie.",
   "main_subtitle2_part1_unify": "Ihre Kanäle vereinen",
@@ -82,5 +82,5 @@
   "language_english": "Englisch",
   "language_portuguese": "Portugiesisch",
   "language_german": "Deutsch",
-  "contact_us": "Contact Us"
+  "contact": "Kontakt"
 }

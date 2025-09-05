@@ -1,4 +1,5 @@
 <template>
+  <Analytics></Analytics>
   <UApp>
     <Menu />
     <NuxtPage />

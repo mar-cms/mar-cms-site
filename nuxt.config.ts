@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   pages: true,
-  modules: ["@nuxtjs/i18n", "@nuxt/ui"],
+  modules: ["@nuxtjs/i18n", "@nuxt/ui", "nuxt-gtag"],
   i18n: {
     locales: [
       { code: "en", iso: "en-US", name: "english", file: "en.json" },
@@ -22,4 +22,13 @@ export default defineNuxtConfig({
       ],
     },
   },
+  runtimeConfig: {
+    public: {
+      google_calendar_url: process.env.GOOGLE_CALENDAR_URL
+    }
+  },
+  gtag: {
+    id: process.env.GOOGLE_TAG_MANAGER_URL,
+    enabled: process.env.NODE_ENV === 'production'
+  }
 });

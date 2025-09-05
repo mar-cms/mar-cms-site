@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="section hero-section">
     <div class="hero-content">
-      <h1>{{$t('main_title')}}</h1>
+      <h1 class="font-bold">{{$t('main_title')}}</h1>
       <p class="subtitle">
         {{$t('main_subtitle')}}
       </p>
@@ -16,8 +16,9 @@
         <span class="changing-word">{{$t(changingWord)}}</span> {{$t('main_subtitle2_part2')}}
       </p>
       <div class="btn-container">
-        <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
-        <button class="btn contrast" @click="bookCall()">{{$t('book_call')}}</button>      </div>
+        <BookCallButton />
+        <!-- <button class="btn contrast" @click="bookCall()">{{$t('book_call')}}</button> -->
+      </div>
     </div>
     <div class="wave">
       <span></span>
@@ -27,12 +28,12 @@
   </section>
 
   <section id="features" class="section light-section">
-    <h1>{{$t('features')}}</h1>
+    <h1 class="font-bold">{{$t('features')}}</h1>
     <section class="section">
       <div class="feature">
         <img class="image" src="~/assets/images/communication_styles.png"></img>
         <div class="text">
-          <h3>{{$t('features_title')}}</h3>
+          <h3 class="font-semibold">{{$t('features_title')}}</h3>
           <p>
             {{$t('features_subtitle')}}
           </p>
@@ -42,7 +43,7 @@
       <div class="feature reverse">
         <img class="image" src="~/assets/images/content_analysis.png"></img>
         <div class="text">
-          <h3>{{$t('feature_content')}}</h3>
+          <h3 class="font-semibold">{{$t('feature_content')}}</h3>
           <p>
             {{$t('feature_content_description')}}
           </p>
@@ -52,7 +53,7 @@
       <div class="feature">
         <img class="image" src="~/assets/images/platform_versions.png"></img>
         <div class="text">
-          <h3>{{$t('feature_multilingual')}}</h3>
+          <h3 class="font-semibold">{{$t('feature_multilingual')}}</h3>
           <p>
             {{$t('feature_multilingual_description')}}
           </p>
@@ -62,7 +63,7 @@
       <div class="feature reverse">
         <img class="image" src="~/assets/images/campaign_manager.png"></img>
         <div class="text">
-          <h3>{{$t('feature_campaign')}}</h3>
+          <h3 class="font-semibold">{{$t('feature_campaign')}}</h3>
           <p>
             {{$t('feature_campaign_description')}}
           </p>
@@ -82,7 +83,7 @@
       <div class="feature">
         <img class="image" src="~/assets/images/dashboards.png"></img>
         <div class="text">
-          <h3>{{$t('feature_analytics')}}</h3>
+          <h3 class="font-semibold">{{$t('feature_analytics')}}</h3>
           <p>
             {{$t('feature_analytics_description')}}
           </p>
@@ -114,12 +115,12 @@
   </section> -->
 
   <section id="pricing" class="section dark-section ">
-    <h1>{{$t('pricing_title')}}</h1>
+    <h1 class="font-bold">{{$t('pricing_title')}}</h1>
 
     <section class="pricing">
       <div class="pricing-row">
         <div class="plan">
-          <h3 class="text-center">{{$t('pricing_basic')}}</h3>
+          <h3 class="text-center font-semibold">{{$t('pricing_basic')}}</h3>
           <!--<p class="price">29€<span>/month/user</span></p>-->
           <p class="description">{{$t('pricing_basic_description')}}</p>
           <ul>
@@ -127,17 +128,19 @@
             <li>{{$t('pricing_basic_feature_1')}}</li>
             <li>{{$t('pricing_basic_feature_2')}}</li>
             <li>{{$t('pricing_basic_feature_3')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_basic_feature_4')}}</li>
+            <li class="second-level ml-6">{{$t('pricing_basic_feature_5')}}</li>
           </ul>
           <!--
           <p class="annual">
             Annual: <strong>278€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <button class="btn contrast" @click="bookCall()">{{$t('pricing_basic_start')}}</button>
+          <BookCallButton />
         </div>
 
         <div class="plan">
-          <h3 class="text-center">{{$t('pricing_reviewer')}}</h3>
+          <h3 class="text-center font-semibold">{{$t('pricing_reviewer')}}</h3>
           <!--<p class="price">99€<span>/month/user</span></p>-->
           <p class="description">
             {{$t('pricing_reviewer_description')}}
@@ -155,11 +158,11 @@
             Annual: <strong>950€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <button class="btn contrast" @click="bookCall()">{{$t('pricing_reviewer_start')}}</button>
+          <BookCallButton />
         </div>
 
         <div class="plan">
-          <h3 class="text-center">{{$t('pricing_creator')}}</h3>
+          <h3 class="text-center font-semibold">{{$t('pricing_creator')}}</h3>
           <!--<p class="price">149€<span>/month/user</span></p>-->
           <p class="description">
             {{$t('pricing_creator_description')}}
@@ -178,14 +181,14 @@
             Annual: <strong>1,430€/year/user</strong> <span>Save 20%</span>
           </p>
           -->
-          <button class="btn contrast" @click="bookCall()">{{$t('pricing_creator_start')}}</button>
+          <BookCallButton />
         </div>
       </div>
     </section>
   </section>
 
   <section id="faq" class="section light-section">
-    <h1>{{$t('questions_title')}}</h1>
+    <h1 class="font-bold">{{$t('questions_title')}}</h1>
 
     <section class="faq">
       <div class="faq-item">
@@ -290,17 +293,32 @@
     </section>
   </section>
 
-  <section id="actions" class="section dark-section" style="min-height: unset">
-    <h1>{{$t('call_to_action_title')}}</h1>
-    <p class="subtitle">{{$t('call_to_action_subtitle')}}</p>
-    <div class="btn-container">
-      <button class="btn primary" @click="getStartedToday()">{{$t('get_started_today')}}</button>
-      <button class="btn contrast" @click="bookCall()">{{$t('book_call')}}</button>
+  <section id="contact" class="section dark-section" style="min-height: unset">
+    <div>
+      <h1 class="font-bold">{{$t('call_to_action_title')}}</h1>
+      <div class="btn-container">
+        <BookCallButton />
+      </div>
+    </div>
+    <div class="my-10 border-t-1 w-full text-gray-400"></div>
+    <div class="flex w-full">
+      <div class="w-1/6 flex items-center flex-col">
+        <img src="~/assets/images/logo.png" class="w-24"></img>
+        <div class="text-2xl"><span class="font-bold">MAR</span> CMS</div>
+      </div>
+      <div class="flex-1 flex gap-4 items-center justify-center text-gray-400">
+        <a href="https://www.linkedin.com/company/mar-cms" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/themarcms?igsh=MWlybjIycHk4a2VuNA==" target="_blank">Instagram</a>
+      </div>
+      <div class="flex items-center w-1/6 text-gray-400 justify-center">
+        contact@mar-cms.com
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import { BookCallButton } from "#components";
 import { onMounted, ref } from "vue";
 
 const changingWord = ref('main_subtitle2_part1_simplify');
@@ -332,15 +350,6 @@ onMounted(() => {
     });
   });
 });
-
-function bookCall() {
-  window.open('https://calendar.app.google/4w6v9eSQLqn88kF98', '_blank');
-}
-
-function getStartedToday() {
-  console.log('hello')
-}
-
 </script>
 
 <style scoped>
@@ -468,6 +477,7 @@ p.subtitle {
   border-radius: 8px;
   flex-shrink: 0;
   background-color: var(--primary-color);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.08);
 }
 
 .feature .text {
@@ -603,8 +613,8 @@ p.subtitle {
 
 .pricing .plan {
   flex: 1 1 300px;
-  color: #fff;
-  background: var(--primary-color);
+  color: black;
+  background: white;
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -631,12 +641,12 @@ p.subtitle {
 .pricing .price span {
   font-size: 0.9rem;
   font-weight: normal;
-  color: #dbe3ff;
 }
 
 .pricing .description {
-  color: #dbe3ff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+  min-height: 48px;
+  color: rgb(136, 136, 136);
 }
 
 .pricing ul {
@@ -657,12 +667,16 @@ p.subtitle {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #dbe3ff;
   font-size: 0.9rem;
 }
 
 .pricing ul li.second-level::before {
-  content: "-";
+  content: "";
+}
+
+.pricing ul li.second-level {
+  font-size: small;
+  font-style: italic;
 }
 
 .pricing .annual {
@@ -725,9 +739,9 @@ p.subtitle {
 
 .btn:hover {
   background-color: white;
-  color: black;
+  color: var(--primary-color);
   transform: translateY(-2px);
-  border: 1px solid black;
+  border: 2px solid var(--primary-color);
 }
 
 

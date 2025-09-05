@@ -7,7 +7,7 @@
   "by": "Por",
   "Posted": "Publicado",
   "get_started_today": "Comece Hoje",
-  "book_call": "Agende uma Chamada com a Nossa Equipa",
+  "book_call": "Agende uma Chamada",
   "main_title": "O Conteúdo do Seu Hotel, Reimaginado",
   "main_subtitle": "A primeira plataforma de conteúdo e campanhas nativa de IA, construída para a hotelaria moderna.",
   "main_subtitle2_part1_unify": "Una os seus canais",
@@ -57,7 +57,7 @@
   "question_1": "O que é o Mar CMS?",
   "question_1_answer": "O Mar CMS é uma plataforma de conteúdo e campanhas nativa de IA, desenhada especificamente para hotéis. Unifica a criação de conteúdo, otimização e distribuição em todos os canais digitais.",
   "question_2": "Que canais digitais o Mar CMS suporta?",
-  "question_2_answer": "O Mar CMS funciona no seu site, OTAs, plataformas de redes sociais e mais—num total de mais de 5 canais.",
+  "question_2_answer": "O Mar CMS funciona no seu site, OTAs, plataformas de redes sociais e mais. Existe um total de mais de 5 canais.",
   "question_3": "Posso gerir conteúdo multilingue?",
   "question_3_answer": "Sim. Pode gerar e publicar conteúdo multilingue adaptado à sua marca, aos perfis de hóspedes e a cada canal, tudo otimizado para SEO.",
   "question_4": "É difícil de configurar?",
@@ -71,7 +71,7 @@
   "question_8": "Quantos utilizadores podemos adicionar?",
   "question_8_answer": "Pode adicionar tantos utilizadores quanto precisar. O preço é por utilizador, e os planos podem ser ajustados com o crescimento da sua equipa.",
   "question_9": "Preciso de conhecimento técnico para usá-lo?",
-  "question_9_answer": "Não. O Mar CMS é projetado para profissionais de marketing e gerentes de hotéis—nenhuma formação técnica é necessária.",
+  "question_9_answer": "Não. O Mar CMS é projetado para profissionais de marketing e gerentes de hotéis. Nenhuma formação técnica é necessária.",
   "question_10": "E se eu quiser apenas experimentá-lo?",
   "question_10_answer": "Pode agendar uma demonstração ou começar com o plano Básico para explorar como o Mar CMS se adapta ao fluxo de trabalho da sua equipa.",
   "call_to_action_title": "Pronto para começar?",
@@ -82,5 +82,5 @@
   "language_english": "Inglês",
   "language_portuguese": "Português",
   "language_german": "Alemão",
-  "contact_us": "Contacte-nos"
+  "contact": "Contactos"
 }
