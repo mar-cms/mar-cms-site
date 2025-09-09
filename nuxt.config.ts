@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     }
   },
   gtag: {
-    id: process.env.GOOGLE_TAG_MANAGER_URL,
+    id: process.env.GOOGLE_TAG_MANAGER_TAG_ID,
     enabled: process.env.NODE_ENV === 'production'
   }
 });
