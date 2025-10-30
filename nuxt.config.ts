@@ -20,7 +20,7 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://fonts.cdnfonts.com/css/switzer",
         },
-        { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
+        { rel: 'icon', type: 'image/x-icon', href: '/logo-32.png' },
       ],
     },
   },
