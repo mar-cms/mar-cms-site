@@ -1,5 +1,8 @@
 <template>
-  <article v-if="article" class="max-w-4xl mx-auto px-4 py-8 mt-20 mb-20">
+  <article
+    v-if="article"
+    class="max-w-4xl mx-auto px-4 py-8 mt-20 mb-20"
+  >
     <nav class="mb-6">
       <NuxtLink
         :to="$localePath(`/blog`)"
@@ -14,7 +17,7 @@
         :src="article.img"
         :alt="article.title"
         class="w-full h-auto rounded-lg object-cover"
-      />
+      >
     </figure>
 
     <header class="mb-10">
@@ -34,7 +37,11 @@
     </header>
 
     <section class="prose prose-lg max-w-none">
-      <div v-for="(block, index) in article.content" :key="index" class="mb-6">
+      <div
+        v-for="(block, index) in article.content"
+        :key="index"
+        class="mb-6"
+      >
         <h2
           v-if="block.type === 'title'"
           class="text-2xl font-bold text-gray-800 mb-3"
@@ -58,37 +65,59 @@
           :src="block.value"
           alt=""
           class="w-full h-auto rounded-lg shadow-md"
-        />
+        >
+
+        <ul
+          v-else-if="block.type === 'list'"
+          class="list-disc list-inside text-gray-700 leading-loose mb-3 space-y-2"
+        >
+          <li
+            v-for="(item, itemIndex) in (typeof block.value === 'object' ? block.value[locale] : block.value)"
+            :key="itemIndex"
+            class="ml-4"
+            v-html="linkifyText(item)"
+          />
+        </ul>
       </div>
     </section>
   </article>
 
-  <p v-else class="text-center py-8 mt-20 mb-20">
+  <p
+    v-else
+    class="text-center py-8 mt-20 mb-20"
+  >
     {{ $t("article_not_found") }}.
   </p>
 </template>
 
 <script setup>
-import { useRoute } from "vue-router";
-import { computed } from "vue";
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
-const { locale } = useI18n();
+const { locale } = useI18n()
 
-import articles from "~/data/articles";
+import articles from '~/data/articles'
 
-const route = useRoute();
-const articleId = route.params.id;
+const route = useRoute()
+const articleId = route.params.id
 
 const article = computed(() =>
-  articles.find((a) => a.id.toString() === articleId)
-);
+  articles.find((a) => a.id.toString() === articleId),
+)
 
 const formattedDate = computed(() => {
-  if (!article.value) return "";
+  if (!article.value) {
+    return ''
+  }
   return new Intl.DateTimeFormat(locale.value, {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  }).format(new Date(article.value.date));
-});
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }).format(new Date(article.value.date))
+})
+
+function linkifyText(text) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g
+  return text.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline break-all">$1</a>')
+}
 </script>
