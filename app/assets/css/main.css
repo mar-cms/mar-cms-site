@@ -3,7 +3,8 @@
 
 :root {
   --primary-color: #5692f5;
-  --ui-bg: #ffffff;
+  --ui-bg: #fff;
+  --ui-text: #000;
 }
 
 *,
