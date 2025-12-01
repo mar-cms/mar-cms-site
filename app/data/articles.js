@@ -420,6 +420,350 @@ const hotelMarketingContent = [
   },
 ]
 
+const brandConsistencyContent = [
+  {
+    type: 'text',
+    value: {
+      en: 'In today\'s hyper-connected hospitality world, brand consistency isn\'t just a nice-to-have. Guests now encounter your business long before they set foot in the lobby: through Instagram stories, LinkedIn posts, TikTok reels, blog articles, newsletters, and more. Each of those touchpoints carries your brand\'s promise, and if they don\'t all align, you risk undermining trust, recognition, and guest loyalty.',
+      pt: 'No mundo hiperconectado da hotelaria atual, a consistência da marca não é apenas algo desejável. Os hóspedes agora conhecem a sua propriedade muito antes de pisarem no lobby: através de histórias no Instagram, publicações no LinkedIn, vídeos no TikTok, artigos em blogs, newsletters e muito mais. Cada um desses pontos de contacto transmite a promessa da sua marca e, se eles não estiverem alinhados, corre o risco de comprometer a confiança, o reconhecimento e a fidelidade dos hóspedes.',
+      de: 'In der heutigen hypervernetzten Welt des Gastgewerbes ist Markenkonsistenz nicht nur ein „Nice-to-have". Gäste begegnen Ihrem Betrieb lange, bevor sie die Lobby betreten – über Instagram-Stories, LinkedIn-Posts, TikTok-Videos, Blogartikel, Newsletter und vieles mehr. Jeder dieser Kontaktpunkte trägt das Markenversprechen Ihres Betriebs, und wenn sie nicht harmonisch aufeinander abgestimmt sind, riskieren Sie, Vertrauen, Wiedererkennung und Gästetreue zu untergraben.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Why consistency matters now more than ever',
+      pt: 'Por que a consistência é mais importante do que nunca',
+      de: 'Warum Konsistenz heute wichtiger ist als je zuvor',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'When a guest sees your content on TikTok and then arrives on-site only to find a completely different tone or aesthetic, the disconnect is damaging. As one industry analysis puts it: "Guests\' first impressions rarely happen at the front desk… they are forming opinions long before they step through the door." [1]',
+      pt: 'Quando um hóspede vê o seu conteúdo no TikTok e depois chega ao local e encontra um tom ou uma estética completamente diferentes, a desconexão é prejudicial. Como afirma uma análise do setor: "As primeiras impressões dos hóspedes raramente acontecem na receção... eles formam opiniões muito antes de entrarem pela porta." [1]',
+      de: 'Wenn ein Gast Ihre Inhalte auf TikTok sieht und dann im Betrieb ankommt, nur um dort eine völlig andere Tonalität oder Ästhetik vorzufinden, ist diese Diskrepanz schädlich. Wie eine Branchenanalyse feststellt: "Der erste Eindruck der Gäste entsteht selten am Empfang – sie bilden sich eine Meinung lange, bevor sie die Tür betreten." [1]',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Research across the hospitality sector repeatedly underlines the connection between consistent branding and guest loyalty, trust, and revenue. Consistent branding directly impacts business success by strengthening guest trust and driving long-term outcomes [2].',
+      pt: 'Pesquisas na área da hotelaria sublinham repetidamente a ligação entre uma marca consistente e a fidelidade, confiança e receitas dos hóspedes. Uma marca consistente tem um impacto direto no sucesso da propriedade, reforçando a confiança dos hóspedes e impulsionando resultados comerciais a longo prazo [2].',
+      de: 'Forschung im Gastgewerbe betont immer wieder den Zusammenhang zwischen konsistenter Markenführung und Gästetreue, Vertrauen und Umsatz. Eine konsistente Marke hat einen direkten Einfluss auf den Erfolg eines Betriebs, da sie das Vertrauen stärkt und langfristige Geschäftsergebnisse fördert [2].',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'In an era when guests compare not only price and location but brand experience, maintaining a unified brand identity across channels has real business implications [3].',
+      pt: 'Numa era em que os hóspedes comparam não só o preço e a localização, mas também a experiência da marca, manter uma identidade de marca unificada em todos os canais tem implicações comerciais reais [3].',
+      de: 'In einer Zeit, in der Gäste nicht nur Preis und Lage, sondern auch das Markenerlebnis vergleichen, hat die Pflege einer einheitlichen Markenidentität über alle Kanäle hinweg reale geschäftliche Auswirkungen [3].',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'The challenge: many channels, many voices',
+      pt: 'O desafio: muitos canais, muitas vozes',
+      de: 'Die Herausforderung: viele Kanäle, viele Stimmen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'For marketing managers, content creators, and digital teams in the hospitality sector, the challenge is real:',
+      pt: 'Para os gestores de marketing hoteleiro, criadores de conteúdo e equipas digitais, o desafio é real:',
+      de: 'Für Hotelmarketing-Manager, Content-Ersteller und digitale Teams ist die Herausforderung groß:',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'You\'re publishing across multiple platforms (LinkedIn, Instagram, TikTok, blogs, email, website).',
+        'Different teams or agencies may handle different channels (e.g., social media vs. website vs. PR).',
+        'Your business may be part of a brand family or a multi-property group, making consistency harder.',
+        'The guest journey ranges from discovery to stay to post-stay review. Each touchpoint must reflect your brand promise.',
+        'With trends, formats, and channels evolving fast, the risk is that tone of voice, visuals, or messages drift over time.',
+      ],
+      pt: [
+        'Você está a publicar em várias plataformas (LinkedIn, Instagram, TikTok, blogs, e-mail, site).',
+        'Equipas ou agências diferentes podem lidar com canais diferentes (por exemplo, redes sociais vs. site vs. relações públicas).',
+        'O seu negócio pode fazer parte de uma família de marcas ou de um grupo com várias propriedades, o que dificulta a consistência.',
+        'A jornada do hóspede vai desde a descoberta até à estadia e à avaliação pós-estadia. Cada ponto de contacto deve refletir a promessa da sua marca.',
+        'Com as tendências, formatos e canais a evoluírem rapidamente, existe o risco de que o tom de voz, os elementos visuais ou as mensagens se desviem ao longo do tempo.',
+      ],
+      de: [
+        'Sie veröffentlichen Inhalte auf mehreren Plattformen (LinkedIn, Instagram, TikTok, Blogs, E-Mail, Website).',
+        'Unterschiedliche Teams oder Agenturen betreuen verschiedene Kanäle (z. B. Social Media vs. Website vs. PR).',
+        'Ihr Betrieb ist möglicherweise Teil einer Markenfamilie oder einer Gruppe mit mehreren Häusern, was die Konsistenz erschwert.',
+        'Die Gästereise reicht von der Entdeckung über den Aufenthalt bis zur Bewertung danach – jeder Kontaktpunkt muss das Markenversprechen widerspiegeln.',
+        'Da sich Trends, Formate und Kanäle rasant weiterentwickeln, besteht die Gefahr, dass sich Tonalität, visuelle Elemente oder Botschaften im Laufe der Zeit verschieben.',
+      ],
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Key areas to lock down for a unified brand presence',
+      pt: 'Áreas-chave a serem definidas para uma presença de marca unificada',
+      de: 'Zentrale Bereiche für eine einheitliche Markenpräsenz',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '1. Establish and maintain brand guidelines',
+      pt: '1. Estabeleça e mantenha diretrizes de marca',
+      de: '1. Markenrichtlinien erstellen und pflegen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Clear, documented guidelines for your brand voice, visual identity (logo, fonts, colors, imagery), guest-facing copy, and service values are foundational. Without them, you\'re relying on ad-hoc interpretation. For luxury properties, this is especially critical: consistent branding "is not just beneficial; it is essential for cultivating guest loyalty and trust." [4]',
+      pt: 'Diretrizes claras e documentadas para a voz da sua marca, identidade visual (logótipo, fontes, cores, imagens), textos voltados para os hóspedes e valores de serviço são fundamentais. Sem elas, você estará dependendo de interpretações ad hoc. Para hotéis de luxo, isso é especialmente crítico: uma marca consistente "não é apenas benéfica; é essencial para cultivar a lealdade e a confiança dos hóspedes". [4]',
+      de: 'Klare, dokumentierte Richtlinien für Ihre Markenstimme, visuelle Identität (Logo, Schriftarten, Farben, Bildsprache), Gastkommunikation und Servicewerte sind die Grundlage. Ohne sie verlassen Sie sich auf spontane Interpretationen. Für Luxusbetriebe ist das besonders entscheidend: Eine konsistente Marke "ist nicht nur vorteilhaft; sie ist unerlässlich, um Gästetreue und Vertrauen aufzubauen." [4]',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '2. Align tone of voice and storytelling across channels',
+      pt: '2. Alinhe o tom de voz e a narrativa em todos os canais',
+      de: '2. Tonalität und Storytelling über alle Kanäle hinweg abstimmen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Your Instagram story, LinkedIn article, and blog post may have different formats, but the underlying voice should be unmistakably yours. Voice "creates connection" and should reflect your property\'s personality across every interaction [3].',
+      pt: 'A sua história no Instagram, artigo no LinkedIn e publicação no blogue podem ter formatos diferentes, mas a voz subjacente deve ser inequivocamente a sua. A voz "cria conexão" e deve refletir a personalidade do negócio em todas as interações [3].',
+      de: 'Ihre Instagram-Story, Ihr LinkedIn-Artikel und Ihr Blogbeitrag können unterschiedliche Formate haben, aber die zugrunde liegende Stimme sollte unverkennbar Ihre sein. Die Stimme "schafft Verbindung" und sollte die Persönlichkeit des Betriebs in jeder Interaktion widerspiegeln [3].',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '3. Integrate digital and physical guest touchpoints',
+      pt: '3. Integre pontos de contacto digitais e físicos com os hóspedes',
+      de: '3. Digitale und physische Gästekontaktpunkte integrieren',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Guests move fluidly between online discovery and the real-world stay. The visuals and messages they saw online should match the welcome email, in-room materials, signage, and post-stay follow-up. If what they experience onsite doesn\'t align with what they consumed pre-arrival, trust erodes [5].',
+      pt: 'Os hóspedes transitam fluidamente entre a descoberta online e a estadia no mundo real. Os visuais e as mensagens que viram online devem corresponder ao e-mail de boas-vindas, aos materiais no quarto, à sinalização e ao acompanhamento pós-estadia. Se a experiência no local não corresponder ao que consumiram antes da chegada, a confiança diminui [5].',
+      de: 'Gäste bewegen sich nahtlos zwischen der Online-Entdeckung und dem Aufenthalt vor Ort. Die visuellen Elemente und Botschaften, die sie online gesehen haben, sollten mit der Willkommens-E-Mail, den Materialien im Zimmer, der Beschilderung und der Nachkommunikation übereinstimmen. Wenn das Erlebnis vor Ort nicht zu dem passt, was sie vor der Ankunft wahrgenommen haben, leidet das Vertrauen [5].',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '4. Use a centralized content management approach',
+      pt: '4. Use uma abordagem centralizada de gestão de conteúdo',
+      de: '4. Einen zentralisierten Ansatz für Content-Management verwenden',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Whether you manage one property or a portfolio, having a central system to store approved assets (templates, photography, copy blocks, brand messages) helps keep multiple teams aligned. This is where an AI-powered CMS tailored for hospitality adds value: you get one source of truth for content, scheduling, distribution, and measurement.',
+      pt: 'Quer você gerencie uma propriedade ou um portfólio, ter um sistema central para armazenar ativos aprovados (modelos, fotografias, blocos de texto, mensagens da marca) ajuda a manter várias equipas alinhadas. É aqui que um CMS alimentado por IA e adaptado para a hotelaria agrega valor: você obtém uma fonte única de verdade para conteúdo, programação, distribuição e medição.',
+      de: 'Egal, ob Sie ein einzelnes Haus oder ein Portfolio verwalten – ein zentrales System zum Speichern genehmigter Materialien (Vorlagen, Fotos, Textbausteine, Markenbotschaften) hilft, mehrere Teams auf Kurs zu halten. Hier bringt ein KI-gestütztes CMS, das speziell für das Gastgewerbe entwickelt wurde, einen klaren Mehrwert: Es bietet eine einzige Quelle der Wahrheit für Inhalte, Planung, Veröffentlichung und Messung.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '5. Train teams and monitor execution',
+      pt: '5. Treine as equipas e monitore a execução',
+      de: '5. Teams schulen und Umsetzung überwachen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Brand consistency isn\'t only a marketing issue. Operations teams, guest services, F&B, and housekeeping all contribute to the guest experience. Training staff on brand values, service tone, and guest-interaction standards ensures the on-property experience matches the marketing promise. Staff interactions should reflect your brand\'s values and promises [5].',
+      pt: 'A consistência da marca não é apenas uma questão de marketing. As equipas operacionais, os serviços aos hóspedes, a restauração e a limpeza contribuem para a experiência dos hóspedes. Formar o pessoal sobre os valores da marca, o tom do serviço e os padrões de interação com os hóspedes garante que a experiência no local corresponde à promessa de marketing. As interações do pessoal devem refletir os valores e as promessas da sua marca [5].',
+      de: 'Markenkonsistenz ist nicht nur ein Marketingthema. Betriebs-, Gästeservice-, F&B- und Housekeeping-Teams tragen alle zum Gästeerlebnis bei. Schulungen zu Markenwerten, Serviceton und Interaktionsstandards stellen sicher, dass das Erlebnis im Betrieb dem Marketingversprechen entspricht. Die Interaktionen des Personals sollten die Werte und das Versprechen Ihrer Marke widerspiegeln [5].',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: '6. Measure, iterate, and govern',
+      pt: '6. Avalie, repita e controle',
+      de: '6. Messen, anpassen und steuern',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Track metrics that reflect brand alignment: guest satisfaction (GSAT), Net Promoter Score (NPS), online review sentiment, repeat-guest rate, and social-media engagement around brand messages. When inconsistencies emerge (e.g., guest feedback says the "brand voice" felt generic or disconnected), act on it [6].',
+      pt: 'Acompanhe métricas que refletem o alinhamento da marca: satisfação dos hóspedes (GSAT), Net Promoter Score (NPS), sentimento das avaliações online, taxa de hóspedes recorrentes e envolvimento nas redes sociais em torno das mensagens da marca. Quando surgirem inconsistências (por exemplo, o feedback dos hóspedes diz que a "voz da marca" parecia genérica ou desconexa), tome medidas [6].',
+      de: 'Verfolgen Sie Kennzahlen, die die Markenausrichtung widerspiegeln: Gästetzufriedenheit (GSAT), Net Promoter Score (NPS), Stimmung in Online-Bewertungen, Wiederkehrraten und Engagement in sozialen Medien rund um Markenbotschaften. Wenn Inkonsistenzen auftreten (z. B. Gästefeedback besagt, dass die "Markenstimme" generisch oder unverbunden klang), sollten Sie handeln [6].',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'How an AI-powered CMS can support your consistency efforts',
+      pt: 'Como um CMS com tecnologia de IA pode apoiar os seus esforços de consistência',
+      de: 'Wie ein KI-gestütztes CMS Ihre Konsistenzbemühungen unterstützen kann',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'An advanced content-management system built for the hospitality sector can help connect the dots in your brand journey:',
+      pt: 'Um sistema avançado de gestão de conteúdo desenvolvido para hotelaria pode ajudar a conectar os pontos na jornada da sua marca:',
+      de: 'Ein fortschrittliches Content-Management-System, das speziell für das Gastgewerbe entwickelt wurde, kann helfen, die Punkte entlang der Markenreise zu verbinden:',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Content orchestration: Produce, approve, and schedule content centrally, ensuring that across LinkedIn, Instagram, blog, and TikTok, your messaging aligns.',
+        'Channel-specific adaptation with brand guardrails: Allow variation in format while ensuring brand voice and look remain consistent.',
+        'Multi-channel distribution: Publish content across platforms from one hub, reducing the risk of inconsistent versions or off-brand messaging.',
+        'Analytics and feedback loops: Monitor performance across channels and guest touchpoints, highlight where brand voice or visuals diverge, and feed findings back for improvement.',
+      ],
+      pt: [
+        'Planejamento de conteúdo: produza, aprove e agende conteúdo de forma centralizada, garantindo que as suas mensagens estejam alinhadas no LinkedIn, Instagram, blog e TikTok.',
+        'Adaptação específica para cada canal com diretrizes da marca: permita variações no formato, garantindo que a voz e a aparência da marca permaneçam consistentes.',
+        'Distribuição multicanal: publique conteúdo em várias plataformas a partir de um único hub, reduzindo o risco de versões inconsistentes ou mensagens fora da marca.',
+        'Análises e ciclos de feedback: monitore o desempenho em todos os canais e pontos de contato com os hóspedes, destaque onde a voz ou os recursos visuais da marca divergem e envie as conclusões para melhorias.',
+      ],
+      de: [
+        'Content-Orchestrierung:Inhalte zentral erstellen, freigeben und planen, um sicherzustellen, dass Ihre Botschaften auf LinkedIn, Instagram, Blog und TikTok abgestimmt sind.',
+        'Kanalspezifische Anpassung mit Markenschutz: Variationen im Format ermöglichen, während Markenstimme und Erscheinungsbild konsistent bleiben.',
+        'Multikanal-Veröffentlichung: Inhalte über mehrere Plattformen hinweg aus einem Hub heraus veröffentlichen, um das Risiko inkonsistenter Versionen oder abweichender Botschaften zu minimieren.',
+        'Analysen und Feedback-Schleifen: Leistung über alle Kanäle und Gästekontaktpunkte hinweg überwachen, Abweichungen in Tonalität oder visueller Darstellung erkennen und Erkenntnisse zur Optimierung zurückführen.',
+      ],
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Together, these capabilities help combat common problems: fragmented workflows, multiple agencies or teams working in silos, content fatigue, outdated branding creeping into collateral, and difficulty analyzing content ROI.',
+      pt: 'Juntas, essas capacidades ajudam a combater problemas comuns: fluxos de trabalho fragmentados, várias agências ou equipas a trabalhar em silos, fadiga de conteúdo, branding desatualizado a infiltrar-se no material promocional e dificuldade em analisar o ROI do conteúdo.',
+      de: 'Diese Fähigkeiten helfen, häufige Probleme zu vermeiden: fragmentierte Arbeitsabläufe, mehrere Agenturen oder Teams in Silos, Content-Ermüdung, veraltetes Branding in Marketingmaterialien und Schwierigkeiten bei der ROI-Analyse von Inhalten.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Forward-looking: brand consistency in a channel-fluid future',
+      pt: 'Visão de futuro: consistência da marca num futuro de canais fluidos',
+      de: 'Blick in die Zukunft: Markenkonsistenz in einer kanalübergreifenden Welt',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'As social formats and guest expectations keep evolving (think: immersive reels, short-form video, interactive stories, AI-driven chatbots), brand consistency cannot be static. It has to evolve while remaining grounded in your core identity.',
+      pt: 'À medida que os formatos sociais e as expectativas dos visitantes continuam a evoluir (pense em: reels imersivos, vídeos curtos, histórias interativas, chatbots baseados em IA), a consistência da marca não pode ser estática. Ela precisa evoluir, mantendo-se fiel à sua identidade central.',
+      de: 'Da sich soziale Formate und Gästeerwartungen ständig weiterentwickeln (denken Sie an immersive Reels, Kurzvideos, interaktive Stories, KI-basierte Chatbots), kann Markenkonsistenz nicht statisch bleiben. Sie muss sich weiterentwickeln, ohne ihre Kernidentität zu verlieren.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Here are three forward-looking imperatives:',
+      pt: 'Aqui estão três imperativos voltados para o futuro:',
+      de: 'Hier sind drei zukunftsorientierte Leitprinzipien:',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Be adaptable, yet anchored: Your brand guidelines should allow for platform innovation (e.g., TikTok is different from LinkedIn) while anchoring to your core values and tone.',
+        'Leverage guest data and personalization responsibly: While tailoring content to traveler segments is valuable, it must still register as the same brand voice and identity. Consistency plus personalization leads to better conversions [7].',
+        'Govern content lifecycle and legacy assets: As content accumulates, a CMS should help archive or flag older assets and ensure only current brand-approved versions get used.',
+      ],
+      pt: [
+        'Seja adaptável, mas mantém-te firme: as diretrizes da tua marca devem permitir a inovação da plataforma (por exemplo, o TikTok é diferente do LinkedIn), mantendo-se fiéis aos teus valores e tom essenciais.',
+        'Aproveite os dados dos hóspedes e a personalização de forma responsável: embora seja valioso adaptar o conteúdo aos segmentos de viajantes, ele deve continuar a registar a mesma voz e identidade da marca. Consistência e personalização levam a melhores conversões [7].',
+        'Gerencie o ciclo de vida do conteúdo e dos activos passados: à medida que o conteúdo se acumula, um CMS deve ajudar a arquivar ou sinalizar os ativos mais antigos e garantir que apenas as versões atuais aprovadas pela marca sejam utilizadas.',
+      ],
+      de: [
+        'Anpassungsfähig, aber verankert bleiben: Ihre Markenrichtlinien sollten Innovationen auf Plattformen ermöglichen (z. B. TikTok unterscheidet sich von LinkedIn), sich aber dennoch an Ihre Kernwerte und Tonalität halten.',
+        'Gästedaten und Personalisierung verantwortungsvoll nutzen: Auch wenn es wertvoll ist, Inhalte für Zielgruppen zu personalisieren, sollte die gleiche Markenstimme und -identität stets erkennbar bleiben. Konsistenz und Personalisierung führen gemeinsam zu besseren Conversion-Raten [7].',
+        'Content-Lebenszyklus und ältere Assets verwalten: Wenn Inhalte sich ansammeln, sollte ein CMS dabei helfen, ältere Materialien zu archivieren oder zu kennzeichnen und sicherzustellen, dass nur aktuelle, markenkonforme Versionen verwendet werden.',
+      ],
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'In summary',
+      pt: 'Em resumo',
+      de: 'Fazit',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Brand consistency across channels isn\'t just about looking the same - it\'s about being the same: same promise, same tone, same experience, whether a guest finds you on TikTok, reads your blog, visits your property, or receives a follow-up email.',
+      pt: 'A consistência da marca em todos os canais não se resume apenas a ter a mesma aparência, mas sim a ser a mesma: a mesma promessa, o mesmo tom, a mesma experiência, quer um hóspede o encontre no TikTok, leia o seu blogue, visite a sua propriedade ou receba um e-mail de acompanhamento.',
+      de: 'Markenkonsistenz über alle Kanäle hinweg bedeutet nicht nur, gleich auszusehen – sondern gleich zu sein: dasselbe Versprechen, derselbe Ton, dasselbe Erlebnis – egal, ob ein Gast Sie auf TikTok entdeckt, Ihren Blog liest, Ihren Betrieb besucht oder eine Follow-up-E-Mail erhält.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'An AI-powered CMS offers a practical solution to orchestrate, enforce, and measure consistency at scale, strengthening brand recognition, guest trust, and ultimately driving repeat business. In the competitive hospitality landscape, a consistent brand it\'s essential.',
+      pt: 'Um CMS alimentado por IA oferece uma solução prática para orquestrar, aplicar e medir a consistência em escala, fortalecendo o reconhecimento da marca, a confiança dos hóspedes e, em última análise, impulsionando a repetição de negócios. No competitivo panorama da hotelaria, uma marca consistente é essencial.',
+      de: 'Ein KI-gestütztes CMS bietet eine praxisnahe Lösung, um Konsistenz im großen Maßstab zu koordinieren, durchzusetzen und zu messen. Es stärkt die Markenbekanntheit, das Vertrauen der Gäste und fördert letztlich die Wiederbuchungsrate. In der wettbewerbsintensiven Gastgewerbelandschaft ist eine konsistente Marke unerlässlich.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'References',
+      pt: 'Referências',
+      de: 'Quellen',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Dennis Studio. Built to Last: Why Brand Consistency Is the Secret to Hotel Success. Retrieved from https://dennis.studio/built-to-last-why-brand-consistency-is-the-secret-to-hotel-success',
+        'The Bob Hotels Blog. Why Brand Consistency Matters in Boutique Hotels. Retrieved from https://blog.thebobhotels.com/why-brand-consistency-matters-in-boutique-hotels',
+        'Digital Silk. Hotel Branding: 13 Advanced Strategies That Still Work Today. Retrieved from https://www.digitalsilk.com/digital-trends/hotel-branding-13-advanced-strategies-that-still-work-today',
+        'By Finesse Group. Master Luxury Hotel Brand Consistency for Lasting Impact. Retrieved from https://byfinessegroup.com/blog/master-luxury-hotel-brand-consistency-for-lasting-impact',
+        'Switch Hotel Solutions. Why Brand Consistency Shapes Guest Perception. Retrieved from https://switchhotelsolutions.com.au/why-brand-consistency-shapes-guest-perception',
+        'Bindy Blog. How to Keep Your Hospitality Brand Experience Consistent Across Multiple Hotels and Channels. Retrieved from https://blog.bindy.com/how-to-keep-your-hospitality-brand-experience-consistent-across-multiple-hotels-and-channels',
+        'Screen Pilot. How Digital Brand Experience Is Changing Hotel Marketing for Good. Retrieved from https://screenpilot.com/insights/how-digital-brand-experience-is-changing-hotel-marketing-for-good',
+      ],
+      pt: [
+        'Dennis Studio. Built to Last: Why Brand Consistency Is the Secret to Hotel Success. Retrieved from https://dennis.studio/built-to-last-why-brand-consistency-is-the-secret-to-hotel-success',
+        'The Bob Hotels Blog. Why Brand Consistency Matters in Boutique Hotels. Retrieved from https://blog.thebobhotels.com/why-brand-consistency-matters-in-boutique-hotels',
+        'Digital Silk. Hotel Branding: 13 Advanced Strategies That Still Work Today. Retrieved from https://www.digitalsilk.com/digital-trends/hotel-branding-13-advanced-strategies-that-still-work-today',
+        'By Finesse Group. Master Luxury Hotel Brand Consistency for Lasting Impact. Retrieved from https://byfinessegroup.com/blog/master-luxury-hotel-brand-consistency-for-lasting-impact',
+        'Switch Hotel Solutions. Why Brand Consistency Shapes Guest Perception. Retrieved from https://switchhotelsolutions.com.au/why-brand-consistency-shapes-guest-perception',
+        'Bindy Blog. How to Keep Your Hospitality Brand Experience Consistent Across Multiple Hotels and Channels. Retrieved from https://blog.bindy.com/how-to-keep-your-hospitality-brand-experience-consistent-across-multiple-hotels-and-channels',
+        'Screen Pilot. How Digital Brand Experience Is Changing Hotel Marketing for Good. Retrieved from https://screenpilot.com/insights/how-digital-brand-experience-is-changing-hotel-marketing-for-good',
+      ],
+      de: [
+        'Dennis Studio. Built to Last: Why Brand Consistency Is the Secret to Hotel Success. Retrieved from https://dennis.studio/built-to-last-why-brand-consistency-is-the-secret-to-hotel-success',
+        'The Bob Hotels Blog. Why Brand Consistency Matters in Boutique Hotels. Retrieved from https://blog.thebobhotels.com/why-brand-consistency-matters-in-boutique-hotels',
+        'Digital Silk. Hotel Branding: 13 Advanced Strategies That Still Work Today. Retrieved from https://www.digitalsilk.com/digital-trends/hotel-branding-13-advanced-strategies-that-still-work-today',
+        'By Finesse Group. Master Luxury Hotel Brand Consistency for Lasting Impact. Retrieved from https://byfinessegroup.com/blog/master-luxury-hotel-brand-consistency-for-lasting-impact',
+        'Switch Hotel Solutions. Why Brand Consistency Shapes Guest Perception. Retrieved from https://switchhotelsolutions.com.au/why-brand-consistency-shapes-guest-perception',
+        'Bindy Blog. How to Keep Your Hospitality Brand Experience Consistent Across Multiple Hotels and Channels. Retrieved from https://blog.bindy.com/how-to-keep-your-hospitality-brand-experience-consistent-across-multiple-hotels-and-channels',
+        'Screen Pilot. How Digital Brand Experience Is Changing Hotel Marketing for Good. Retrieved from https://screenpilot.com/insights/how-digital-brand-experience-is-changing-hotel-marketing-for-good',
+      ],
+    },
+  },
+]
+
 /**
  * Article definition:
  * Represents a single article with metadata and content.
@@ -464,5 +808,17 @@ export default [
     date: '2025-11-03',
     author: 'Maria, Mar CMS',
     content: hotelMarketingContent,
+  },
+  {
+    id: 2,
+    img: '/article-2.jpg',
+    title: {
+      en: 'How Hospitality Businesses Can Maintain Brand Consistency Across Channels',
+      pt: 'Como os negócios hoteleiros podem manter a consistência da marca em todos os canais',
+      de: 'Wie Betriebe im Gastgewerbe Markenkonsistenz über alle Kanäle hinweg aufrechterhalten können',
+    },
+    date: '2025-12-01',
+    author: 'Maria, Mar CMS',
+    content: brandConsistencyContent,
   },
 ]
