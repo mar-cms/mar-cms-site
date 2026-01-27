@@ -420,6 +420,331 @@ const hotelMarketingContent = [
   },
 ]
 
+const hiddenCostsContent = [
+  {
+    type: 'text',
+    value: {
+      en: 'In the digital age, most travellers book accommodations online, relying heavily on the information they find on hotel websites, booking platforms and travel-review portals. A small mistake, such as outdated room descriptions, wrong amenities, or incorrect photos, may seem trivial, but for hoteliers, inaccuracy can carry real and long-lasting costs: loss of trust, cancellations, negative reviews, and ultimately lost revenue.',
+      pt: 'Na era digital, a maioria dos viajantes reserva alojamento online, confiando fortemente nas informações que encontra nos sites dos hotéis, nas plataformas de reservas e nos portais de avaliações de viagem. Um pequeno erro, como descrições desatualizadas dos quartos, comodidades erradas ou fotografias incorretas, pode parecer insignificante, mas para os hoteleiros, a imprecisão pode acarretar custos reais e duradouros: perda de confiança, cancelamentos, avaliações negativas e, em última análise, perda de receita.',
+      de: 'Im digitalen Zeitalter buchen die meisten Reisenden Unterkünfte online und verlassen sich stark auf die Informationen, die sie auf Hotelwebsites, Buchungsplattformen und Reisebewertungsportalen finden. Ein kleiner Fehler, wie veraltete Zimmerbeschreibungen, falsche Ausstattungsmerkmale oder unzutreffende Fotos, mag trivial erscheinen, aber für Hoteliers können Ungenauigkeiten reale und langfristige Kosten verursachen: Vertrauensverlust, Stornierungen, negative Bewertungen und letztlich Umsatzverluste.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'The Growing Stakes: Guest Expectations and Digital Transparency',
+      pt: 'O Crescente Impacto: Expectativas dos Hóspedes e Transparência Digital',
+      de: 'Die wachsenden Risiken: Gästeerwartungen und digitale Transparenz',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Guests increasingly base their choices not only on price and location, but on the clarity and reliability of hotel information. Research shows that room quality and amenities are among the most commonly cited factors in guest satisfaction or disappointment. [1]',
+      pt: 'Os hóspedes baseiam cada vez mais as suas escolhas não apenas no preço e na localização, mas também na clareza e fiabilidade das informações do hotel. Estudos mostram que a qualidade do quarto e as comodidades estão entre os fatores mais citados na satisfação ou deceção dos hóspedes. [1]',
+      de: 'Gäste treffen ihre Entscheidungen zunehmend nicht nur auf Basis von Preis und Lage, sondern auch anhand der Klarheit und Zuverlässigkeit der Hotelinformationen. Untersuchungen zeigen, dass Zimmerqualität und Ausstattung zu den am häufigsten genannten Faktoren für Zufriedenheit oder Enttäuschung gehören. [1]',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Meanwhile, the online booking ecosystem has grown ever more complex: hotels must serve content consistently across their own website, third-party booking platforms, OTAs, and channel managers. Mismatches between listings, e.g., wrong bed types, outdated amenities, duplicate entries, are common when data is manually managed or distributed across multiple systems. This kind of data inconsistency can lead to overbookings, customer confusion or cancellations.[2]',
+      pt: 'Entretanto, o ecossistema de reservas online tornou-se ainda mais complexo: os hotéis devem garantir conteúdos consistentes no seu próprio site, em plataformas de terceiros, OTAs e gestores de canais. Inconsistências entre listagens, como tipos de cama incorretos, comodidades desatualizadas ou entradas duplicadas, são comuns quando os dados são geridos manualmente ou distribuídos por vários sistemas. Este tipo de inconsistência pode causar overbookings, confusão dos clientes ou cancelamentos. [2]',
+      de: 'Gleichzeitig ist das Online-Buchungsökosystem immer komplexer geworden: Hotels müssen Inhalte konsistent auf ihrer eigenen Website, auf Buchungsplattformen Dritter, OTAs und Channel-Managern bereitstellen. Diskrepanzen zwischen Einträgen, z. B. falsche Bettenarten, veraltete Ausstattungen oder doppelte Einträge, sind häufig, wenn Daten manuell verwaltet oder über mehrere Systeme verteilt werden. Diese Art von Dateninkonsistenz kann zu Überbuchungen, Verwirrung bei Kunden oder Stornierungen führen. [2]',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'In short, inaccurate information can undermine a property\'s credibility and harm its performance in a marketplace where trust and transparency matter most.',
+      pt: 'Em suma, informações imprecisas podem prejudicar a credibilidade de uma propriedade e o seu desempenho num mercado onde a confiança e a transparência são essenciais.',
+      de: 'Kurz gesagt, ungenaue Informationen können die Glaubwürdigkeit einer Unterkunft untergraben und ihre Leistung in einem Markt schädigen, in dem Vertrauen und Transparenz entscheidend sind.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'What Happens When Information Is Wrong',
+      pt: 'O Que Acontece Quando a Informação Está Errada',
+      de: 'Was passiert, wenn Informationen falsch sind',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Loss of trust and brand damage',
+      pt: 'Perda de confiança e danos na marca',
+      de: 'Verlust von Vertrauen und Markenschäden',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'A study examining misleading hotel photos found that guests who discover discrepancies between what they saw online and what they get in reality are more likely to feel anger and regret, particularly in upscale hotels or for leisure stays. [3] In many cases, unhappy guests express their disappointment publicly, via reviews or social media, eroding not just the booking in question, but also the broader perception of the brand.',
+      pt: 'Um estudo sobre fotografias enganadoras de hotéis concluiu que hóspedes que encontram discrepâncias entre o que viram online e o que recebem na realidade têm maior probabilidade de sentir frustração e arrependimento, especialmente em hotéis de gama alta ou estadias de lazer. [3] Muitos destes hóspedes exprimem publicamente a sua deceção através de avaliações ou redes sociais, prejudicando não só a reserva em causa, mas também a perceção geral da marca.',
+      de: 'Eine Studie über irreführende Hotelfotos zeigte, dass Gäste, die Diskrepanzen zwischen dem, was sie online gesehen haben, und der Realität feststellen, mit höherer Wahrscheinlichkeit Ärger und Reue empfinden, insbesondere bei gehobenen Hotels oder Freizeitaufenthalten. [3] In vielen Fällen äußern unzufriedene Gäste ihre Enttäuschung öffentlich über Bewertungen oder soziale Medien und beeinträchtigen damit nicht nur die jeweilige Buchung, sondern auch die allgemeine Wahrnehmung der Marke.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Negative reviews and fewer return bookings',
+      pt: 'Avaliações negativas e menos reservas de repetição',
+      de: 'Negative Bewertungen und weniger Wiederholungsbuchungen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Unsatisfied guests who feel misled are more likely to write negative reviews, which in turn impacts future travellers\' decisions. Research on hotel brand equity confirms that amenity use and accurate representation significantly influence guests\' perceived value, brand image, emotional resonance and their likelihood to return. [4] Once credibility is damaged, regaining it is often more difficult, even with subsequent improvements or offers. [5]',
+      pt: 'Hóspedes que se sentem enganados tendem a deixar mais avaliações negativas, influenciando futuros viajantes. Estudos sobre o valor das marcas hoteleiras mostram que a precisão das descrições e o uso das comodidades influenciam o valor percebido, a imagem da marca, a ligação emocional e a probabilidade de regresso. [4] Uma vez perdida a credibilidade, recuperá-la é difícil, mesmo com melhorias posteriores ou ofertas compensatórias. [5]',
+      de: 'Unzufriedene Gäste, die sich getäuscht fühlen, schreiben mit größerer Wahrscheinlichkeit negative Bewertungen, was wiederum die Entscheidungen zukünftiger Reisender beeinflusst. Untersuchungen zur Markenstärke von Hotels bestätigen, dass Ausstattungsnutzung und genaue Darstellung den wahrgenommenen Wert, das Markenimage, die emotionale Bindung und die Wiederkehrrate signifikant beeinflussen. [4] Sobald die Glaubwürdigkeit beschädigt ist, ist es oft schwieriger, sie wiederherzustellen, selbst mit späteren Verbesserungen oder Angeboten. [5]',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Cancellations and drop in conversions',
+      pt: 'Cancelamentos e queda nas conversões',
+      de: 'Stornierungen und Rückgang der Konversionsraten',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'When room availability, amenities or descriptions differ between channels, this can lead to booking cancellations or no-shows. A study of hotel booking behaviour found that online bookings have a higher cancellation rate, possibly linked to uncertainty or misaligned expectations. [6]  For smaller, independent properties or those depending heavily on direct bookings, each cancellation can meaningfully impact revenue.',
+      pt: 'Quando as comodidades, a disponibilidade ou as descrições divergem entre canais, aumentam os cancelamentos e os no-shows. Um estudo mostrou que as reservas online têm taxas de cancelamento mais elevadas, possivelmente devido à incerteza ou expectativas mal alinhadas. [6] Para unidades pequenas, independentes ou dependentes de reservas diretas, cada cancelamento tem impacto real na receita.',
+      de: 'Wenn Verfügbarkeit, Ausstattung oder Beschreibungen zwischen den Kanälen variieren, kann dies zu Stornierungen oder No-Shows führen. Eine Studie zum Buchungsverhalten ergab, dass Online-Buchungen eine höhere Stornierungsrate aufweisen, möglicherweise bedingt durch Unsicherheit oder unklare Erwartungen. [6] Für kleinere, unabhängige Häuser oder solche, die stark von Direktbuchungen abhängig sind, kann jede Stornierung die Einnahmen merklich beeinflussen.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Operational inefficiencies and increased costs',
+      pt: 'Ineficências operacionais e custos acrescidos',
+      de: 'Operative Ineffizienzen und steigende Kosten',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Inconsistent or outdated content creates extra workload: manual corrections, customer support, managing refund requests, and responding to complaints. When misalignment persists across many platforms, the costs add up in time, staff resources, and lost opportunities.[7]',
+      pt: 'Conteúdos inconsistentes ou desatualizados criam trabalho adicional: correções manuais, apoio ao cliente, gestão de reembolsos e resposta a reclamações. Quando estas falhas se estendem por várias plataformas, os custos acumulam-se em tempo, recursos e oportunidades perdidas. [7]',
+      de: 'Inkonsistente oder veraltete Inhalte erzeugen zusätzlichen Arbeitsaufwand: manuelle Korrekturen, Kundensupport, Bearbeitung von Rückerstattungen und Reaktionen auf Beschwerden. Wenn Missalignments auf vielen Plattformen bestehen, steigen die Kosten in Form von Zeit, Personalressourcen und entgangenen Chancen. [7]',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Why It Happens: Root Causes of Content Inaccuracy',
+      pt: 'Porque Acontece: Causas Principais da Inexactidão dos Conteúdos',
+      de: 'Warum es passiert: Hauptursachen für ungenaue Inhalte',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Fragmented content workflows: Hotels often use multiple tools, such as CMS, booking engines, channel managers, and updates may not propagate throughout all systems.',
+        'Manual data entry and human error: Typos, outdated amenity lists, incorrect room descriptions or mis-labelled photos are common mistakes when content is managed manually.',
+        'Lack of regular audits: Without systematic content reviews, what was accurate at launch can become misleading over time (e.g. after renovations, room reconfigurations, service changes).',
+        'Channel proliferation and mapping issues: A property may be listed multiple times across OTAs, sometimes duplicating or mis-mapping room types or features, leading to confusion for both guests and the hotel itself. [2]',
+      ],
+      pt: [
+        'Workflows fragmentados: Os hotéis utilizam vários sistemas e as atualizações nem sempre se propagam a todos.',
+        'Entrada manual de dados e erro humano: Erros tipográficos, listas desatualizadas, descrições incorretas e fotos mal etiquetadas são frequentes com processos manuais.',
+        'Falta de auditorias regulares: Com o tempo, o conteúdo anteriormente correto pode tornar-se enganador, sobretudo após renovações ou alterações nos serviços.',
+        'Proliferação de canais e problemas de mapeamento: Uma propriedade pode aparecer várias vezes em OTAs, às vezes com mapeamento incorreto ou duplicado dos tipos de quarto. [2]',
+      ],
+      de: [
+        'Fragmentierte Content-Workflows: Hotels verwenden häufig mehrere Tools wie CMS, Buchungsmaschinen und Channel-Manager, und Aktualisierungen werden nicht immer auf alle Systeme übertragen.',
+        'Manuelle Dateneingabe und menschliche Fehler: Tippfehler, veraltete Ausstattungslisten, unzutreffende Zimmerbeschreibungen oder falsch zugeordnete Fotos sind häufige Fehler bei der manuellen Contentpflege.',
+        'Mangel an regelmäßigen Audits: Ohne systematische Inhaltsüberprüfungen kann das, was bei der Veröffentlichung korrekt war, im Laufe der Zeit irreführend werden (z. B. nach Renovierungen, Zimmerumbauten oder Serviceänderungen).',
+        'Kanalvielfalt und Mapping-Probleme: Eine Unterkunft kann mehrfach auf OTAs gelistet sein, manchmal mit doppelten oder falsch gemappten Zimmertypen oder Merkmalen, was sowohl Gäste als auch das Hotel verwirrt. [2]',
+      ],
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'The Business Risk: Quantifiable & Intangible Costs',
+      pt: 'O Risco Empresarial: Custos Quantificáveis e Intangíveis',
+      de: 'Das Geschäftsrisiko: Quantifizierbare und immaterielle Kosten',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'In today\'s marketplace, the costs of inaccurate content go beyond a single unhappy guest. They can erode long-term brand equity and loyalty. Negative reviews reduce conversion rates, lower repeat business, and upset relationships with corporate clients or travel agencies.[5]',
+      pt: 'Conteúdos imprecisos prejudicam mais do que um hóspede: afetam a lealdade, a imagem da marca, as conversões e as relações com parceiros corporativos. [5]',
+      de: 'Im heutigen Markt gehen die Kosten ungenauer Inhalte über einen einzelnen unzufriedenen Gast hinaus. Sie können die langfristige Markenstärke und Kundenbindung schwächen. Negative Bewertungen senken Conversion Rates, reduzieren Wiederholungsbuchungen und belasten Beziehungen zu Firmenkunden oder Reiseagenturen. [5]',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Moreover, cancellations and booking errors have a direct impact on revenue management. Even if a cancellation rate increase seems small, inflated by mis-descriptions or uncertainty, the ripple effect on occupancy forecasting, staffing and channel strategy can be significant.',
+      pt: 'Cancelamentos e erros de reserva influenciam diretamente a gestão de receita. Mesmo pequenas variações nas taxas de cancelamento afetam previsões de ocupação, planeamento de equipas e estratégia de canais.',
+      de: 'Zudem haben Stornierungen und Buchungsfehler direkte Auswirkungen auf das Revenue Management. Selbst ein kleiner Anstieg der Stornierungsrate, verursacht durch unklare Beschreibungen oder Unsicherheit, kann signifikante Folgen für Auslastungsprognosen, Personalplanung und Kanalstrategie haben.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'And in the age of instant reviews and social media sharing, reputational damage can spread quickly, undermining future bookings even if the mistake was small.',
+      pt: 'E na era das avaliações instantâneas, danos reputacionais espalham-se rapidamente, mesmo quando o erro inicial é pequeno.',
+      de: 'Im Zeitalter sofortiger Bewertungen und sozialer Medien können Reputationsschäden sich schnell ausbreiten und zukünftige Buchungen beeinträchtigen, selbst wenn der ursprüngliche Fehler gering war.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'A Strategic Imperative: Prioritising Accuracy in Hotel Content',
+      pt: 'Uma Prioridade Estratégica: Dar Prioridade à Precisão do Conteúdo',
+      de: 'Eine strategische Notwendigkeit: Genauigkeit bei Hotelinhalten priorisieren',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Adopt centralised, integrated content management',
+      pt: 'Adotar gestão de conteúdos centralizada e integrada',
+      de: 'Zentralisiertes, integriertes Content Management einführen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Using a unified content management system (CMS), ideally capable of integrating with booking engines and channel managers, helps ensure that every detail (room type, amenities, photos) is consistent across all channels. This reduces duplication, mismatches, and manual errors.',
+      pt: 'Um CMS unificado garante que descrições, comodidades e fotos permanecem consistentes em todas as plataformas, reduzindo discrepâncias e erros manuais.',
+      de: 'Die Nutzung eines zentralisierten Content-Management-Systems (CMS), idealerweise integriert mit Buchungsmaschine und Channel-Manager, stellt sicher, dass jedes Detail (Zimmertyp, Ausstattung, Fotos) über alle Kanäle hinweg konsistent bleibt. Dies reduziert Duplikate, Diskrepanzen und manuelle Fehler.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Establish regular content audits and updates',
+      pt: 'Estabelecer auditorias e atualizações regulares',
+      de: 'Regelmäßige Inhaltsprüfungen und Updates einführen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Assign regular intervals, quarterly or after any renovation or service change, to review all published information. Even minor changes (e.g. schedules, amenity availability, renovation updates) must be reflected everywhere the hotel is listed.',
+      pt: 'Use protocolos de mapeamento para evitar duplicações e erros. Automatize a sincronização sempre que possível. [2]',
+      de: 'Definieren Sie regelmäßige Intervalle, vierteljährlich oder nach Renovierungen oder Serviceänderungen, um alle veröffentlichten Informationen zu überprüfen. Selbst kleine Änderungen müssen überall aktualisiert werden, wo die Unterkunft gelistet ist.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Use data mapping & verification processes',
+      pt: 'Utilizar mapeamento e verificação de dados',
+      de: 'Daten-Mapping und Verifizierungsprozesse nutzen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'When distributing to third-party platforms or intermediaries, use mapping protocols (e.g. standardised room codes, unique property IDs) to avoid duplicate or mis-linked listings. Where possible, automate synchronisation, so updates flow automatically across systems. [2]',
+      pt: 'Use protocolos de mapeamento para evitar duplicações e erros. Automatize a sincronização sempre que possível. [2]',
+      de: 'Bei der Verteilung an Drittplattformen sollten Mapping-Protokolle genutzt werden, um doppelte oder falsch verknüpfte Einträge zu vermeiden. Wo möglich, sollte die Synchronisierung automatisiert werden. [2]',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Monitor guest feedback & complaints in real time',
+      pt: 'Monitorizar feedback e reclamações em tempo real',
+      de: 'Gästefeedback und Beschwerden in Echtzeit überwachen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Guest reviews and complaints often highlight mismatches between expectation and reality. Use them as an early warning system. Promptly address inaccuracies, correct them, and respond transparently to affected guests.[8]',
+      pt: 'As avaliações dos hóspedes revelam frequentemente falhas de alinhamento entre expectativa e realidade. Corrija rapidamente e comunique com transparência. [8]',
+      de: 'Gästebewertungen und Beschwerden heben oft Diskrepanzen hervor. Korrigieren Sie Ungenauigkeiten sofort und reagieren Sie transparent auf betroffene Gäste. [8]',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Looking Ahead: The Role of AI-Enabled CMS in Mitigating Risk',
+      pt: 'Olhando para o Futuro: O Papel dos CMS com IA na Mitigação de Riscos',
+      de: 'Ein Blick in die Zukunft: Die Rolle KI-gestützter CMS bei der Risikominderung',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Emerging digital tools, particularly AI-enabled CMS solutions, offer a significant advantage. These systems can automatically detect inconsistencies, flag outdated content, and synchronise changes across channels. They also reduce manual intervention, lowering the risk of human error.',
+      pt: 'CMS habilitados por IA detetam inconsistências, assinalam conteúdo desatualizado e sincronizam alterações automaticamente.',
+      de: 'Neue digitale Tools wie KI-gestützte CMS können Inkonsistenzen automatisch erkennen, veraltete Inhalte markieren und kanalübergreifend synchronisieren.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'By embedding content workflows in one centralised system, hotels can ensure that room descriptions, amenity lists, availability, and photos remain accurate, even as the property evolves. This helps preserve brand consistency, protect guest trust, and safeguard revenue.',
+      pt: 'A centralização de workflows garante informações atualizadas mesmo quando a propriedade evolui.',
+      de: 'Durch die Zentralisierung aller Content-Workflows können Hotels sicherstellen, dass Beschreibungen, Ausstattungslisten, Verfügbarkeit und Fotos korrekt bleiben.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'In an industry where guest expectations are rising and transparency is increasingly non-negotiable, accuracy is more than a detail. It is a foundation for trust, reputation, and long-term profitability.',
+      pt: 'Num setor cada vez mais exigente, a precisão é uma base essencial para confiança, reputação e rentabilidade.',
+      de: 'In einer Branche mit steigenden Gästeerwartungen und zunehmender Transparenz ist Genauigkeit eine Grundlage für Vertrauen, Reputation und langfristige Rentabilität.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Ref:',
+      pt: 'Ref:',
+      de: 'Ref:',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        '[1] https://www.researchgate.net/publication/329276946_Factors_Influencing_Customers%27_Satisfaction_and_Dissatisfaction_with_Hotels_A_Text-Mining_Approach',
+        '[2] https://vervotech.com/blog/how-hotel-mapping-api-makes-a-difference/',
+        '[3] https://www.researchgate.net/publication/280355954_What_you_get_is_not_what_you_saw_Exploring_the_impacts_of_misleading_hotel_website_photos',
+        '[4] https://www.sciencedirect.com/science/article/pii/S266709682400034X',
+        '[5] https://upperdelawareinn.com/the-dangers-of-ignoring-hotel-guests-impact-on-business/',
+        '[6] https://www.researchgate.net/publication/326824252_Modelling_the_cancellation_behaviour_of_hotel_guests',
+        '[7] https://vervotech.com/blog/how-clean-hotel-data-increases-booking-efficiency',
+        '[8] https://jltr.academypublication.com/index.php/jltr/article/view/7422',
+      ],
+      pt: [
+        '[1] https://www.researchgate.net/publication/329276946_Factors_Influencing_Customers%27_Satisfaction_and_Dissatisfaction_with_Hotels_A_Text-Mining_Approach',
+        '[2] https://vervotech.com/blog/how-hotel-mapping-api-makes-a-difference/',
+        '[3] https://www.researchgate.net/publication/280355954_What_you_get_is_not_what_you_saw_Exploring_the_impacts_of_misleading_hotel_website_photos',
+        '[4] https://www.sciencedirect.com/science/article/pii/S266709682400034X',
+        '[5] https://upperdelawareinn.com/the-dangers-of-ignoring-hotel-guests-impact-on-business/',
+        '[6] https://www.researchgate.net/publication/326824252_Modelling_the_cancellation_behaviour_of_hotel_guests',
+        '[7] https://vervotech.com/blog/how-clean-hotel-data-increases-booking-efficiency',
+        '[8] https://jltr.academypublication.com/index.php/jltr/article/view/7422',
+      ],
+      de: [
+        '[1] https://www.researchgate.net/publication/329276946_Factors_Influencing_Customers%27_Satisfaction_and_Dissatisfaction_with_Hotels_A_Text-Mining_Approach',
+        '[2] https://vervotech.com/blog/how-hotel-mapping-api-makes-a-difference/',
+        '[3] https://www.researchgate.net/publication/280355954_What_you_get_is_not_what_you_saw_Exploring_the_impacts_of_misleading_hotel_website_photos',
+        '[4] https://www.sciencedirect.com/science/article/pii/S266709682400034X',
+        '[5] https://upperdelawareinn.com/the-dangers-of-ignoring-hotel-guests-impact-on-business/',
+        '[6] https://www.researchgate.net/publication/326824252_Modelling_the_cancellation_behaviour_of_hotel_guests',
+        '[7] https://vervotech.com/blog/how-clean-hotel-data-increases-booking-efficiency',
+        '[8] https://jltr.academypublication.com/index.php/jltr/article/view/7422',
+      ],
+    },
+  },
+]
+
 const brandConsistencyContent = [
   {
     type: 'text',
@@ -798,16 +1123,16 @@ const brandConsistencyContent = [
  */
 export default [
   {
-    id: 1,
-    img: '/article-1.jpg',
+    id: 3,
+    img: '/article-3.jpg',
     title: {
-      en: 'How AI Is Reshaping Hotel Marketing',
-      pt: 'Como a IA está a remodelar o marketing hoteleiro',
-      de: 'Wie KI das Hotelmarketing neu gestaltet',
+      en: 'The Hidden Costs of Inaccurate Hotel Information - Why Detail Matters More Than You Think',
+      pt: 'Os Custos Ocultos de Informações Inaccuradas de Hotel - Porque os Detalhes Importam Mais do que Pensa',
+      de: 'Die versteckten Kosten ungenauer Hotelinformationen - Warum Details wichtiger sind, als Sie denken',
     },
-    date: '2025-11-03',
+    date: '2026-01-27',
     author: 'Maria, Mar CMS',
-    content: hotelMarketingContent,
+    content: hiddenCostsContent,
   },
   {
     id: 2,
@@ -820,5 +1145,17 @@ export default [
     date: '2025-12-01',
     author: 'Maria, Mar CMS',
     content: brandConsistencyContent,
+  },
+  {
+    id: 1,
+    img: '/article-1.jpg',
+    title: {
+      en: 'How AI Is Reshaping Hotel Marketing',
+      pt: 'Como a IA está a remodelar o marketing hoteleiro',
+      de: 'Wie KI das Hotelmarketing neu gestaltet',
+    },
+    date: '2025-11-03',
+    author: 'Maria, Mar CMS',
+    content: hotelMarketingContent,
   },
 ]
