@@ -1089,6 +1089,326 @@ const brandConsistencyContent = [
   },
 ]
 
+const seasonalCampaignsContent = [
+  {
+    type: 'text',
+    value: {
+      en: 'Seasonality has always shaped hospitality demand. From Mediterranean summer peaks to winter city breaks and shoulder-season business travel, guest intent rises and falls in predictable patterns. Yet many hospitality brands still approach seasonal marketing reactively, producing content late, inconsistently, or without a clear view of how campaigns perform across regions and channels.',
+      pt: 'A sazonalidade sempre moldou a procura no setor da hotelaria. Desde os picos de verão no Mediterrâneo às escapadas urbanas de inverno e às viagens de negócios em época intermédia, a intenção dos hóspedes sobe e desce segundo padrões previsíveis. Ainda assim, muitas marcas hoteleiras continuam a abordar o marketing sazonal de forma reativa, produzindo conteúdos tarde, de forma inconsistente ou sem uma visão clara de como as campanhas têm desempenho em diferentes regiões e canais.',
+      de: 'Die Saisonalität hat die Nachfrage im Gastgewerbe schon immer geprägt. Von mediterranen Sommerhöchstzeiten über winterliche Städtereisen bis hin zu Geschäftsreisen in der Nebensaison steigt und fällt die Gästeabsicht in vorhersehbaren Mustern. Dennoch gehen viele Hotelmarken saisonales Marketing noch immer reaktiv an, indem sie Inhalte spät, uneinheitlich oder ohne klaren Überblick darüber erstellen, wie Kampagnen über Regionen und Kanäle hinweg performen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'For marketing and digital teams responsible for multiple properties and markets, seasonal content planning is less about filling a calendar and more about aligning brand, timing, and relevance. Done well, it keeps a property or portfolio visible long before guests are ready to book and ensures content remains accurate when demand accelerates.',
+      pt: 'Para as equipas de marketing e digital responsáveis por várias unidades e mercados, o planeamento de conteúdos sazonais tem menos a ver com preencher um calendário e mais com alinhar marca, timing e relevância. Quando bem executado, mantém uma unidade ou portefólio visível muito antes de os hóspedes estarem prontos para reservar e garante que os conteúdos permanecem atualizados quando a procura acelera.',
+      de: 'Für Marketing- und Digitalteams, die für mehrere Häuser und Märkte verantwortlich sind, geht es bei der saisonalen Content-Planung weniger darum, einen Kalender zu füllen, als vielmehr darum, Marke, Timing und Relevanz aufeinander abzustimmen. Richtig umgesetzt sorgt sie dafür, dass eine Immobilie oder ein Portfolio lange sichtbar bleibt, bevor Gäste buchungsbereit sind, und stellt sicher, dass Inhalte aktuell bleiben, wenn die Nachfrage anzieht.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Understanding seasonal demand beyond the calendar',
+      pt: 'Compreender a procura sazonal para além do calendário',
+      de: 'Saisonale Nachfrage über den Kalender hinaus verstehen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Seasonal hotel marketing is often framed around obvious peaks such as summer, Christmas, or major public holidays. In practice, travel behaviour is influenced by a wider mix of factors, including school calendars, regional events, airline capacity, and evolving traveller preferences.',
+      pt: 'O marketing hoteleiro sazonal é frequentemente enquadrado em torno de picos óbvios como o verão, o Natal ou grandes feriados públicos. Na prática, o comportamento de viagem é influenciado por um conjunto mais amplo de fatores, incluindo calendários escolares, eventos regionais, capacidade aérea e preferências de viagem em evolução.',
+      de: 'Saisonales Hotelmarketing wird oft um offensichtliche Spitzenzeiten wie Sommer, Weihnachten oder große gesetzliche Feiertage herum geplant. In der Praxis wird das Reiseverhalten jedoch von einer breiteren Mischung aus Faktoren beeinflusst, darunter Schulkalender, regionale Veranstaltungen, Flugkapazitäten und sich wandelnde Reisepräferenzen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Research from UNWTO shows that European travel demand is increasingly fragmented across the year, with strong growth in shoulder seasons as travellers seek better value and less crowded destinations [1]. At the same time, Google travel insights indicate that inspiration and research often begin months before arrival, particularly for leisure trips tied to fixed dates such as festivals or school holidays [2].',
+      pt: 'Investigação da UNWTO mostra que a procura de viagens na Europa está cada vez mais fragmentada ao longo do ano, com forte crescimento nas épocas intermédias, à medida que os viajantes procuram melhor relação qualidade-preço e destinos menos congestionados [1]. Ao mesmo tempo, dados do Google sobre viagens indicam que a inspiração e a pesquisa começam muitas vezes meses antes da chegada, sobretudo em viagens de lazer associadas a datas fixas como festivais ou férias escolares [2].',
+      de: 'Untersuchungen der UNWTO zeigen, dass sich die europäische Reisedynamik zunehmend über das Jahr verteilt, mit starkem Wachstum in den Nebensaisons, da Reisende nach besserem Preis-Leistungs-Verhältnis und weniger überlaufenen Reisezielen suchen [1]. Gleichzeitig weisen Google-Reiseanalysen darauf hin, dass Inspiration und Recherche oft Monate vor der Anreise beginnen, insbesondere bei Freizeitreisen mit festen Terminen wie Festivals oder Schulferien [2].',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'For hospitality brands, this means seasonal content planning should start with demand signals, not campaign deadlines. Mapping when guests research, compare, and book allows teams to publish content early enough to influence decisions rather than simply react to them.',
+      pt: 'Para as marcas hoteleiras, isto significa que o planeamento de conteúdos sazonais deve começar com sinais de procura, e não com prazos de campanha. Mapear quando os hóspedes pesquisam, comparam e reservam permite às equipas publicar conteúdos com antecedência suficiente para influenciar decisões, em vez de simplesmente reagir a elas.',
+      de: 'Für Hotelmarken bedeutet dies, dass saisonale Content-Planung bei Nachfragesignalen ansetzen sollte, nicht bei Kampagnen-Deadlines. Die Abbildung dessen, wann Gäste recherchieren, vergleichen und buchen, ermöglicht es Teams, Inhalte früh genug zu veröffentlichen, um Entscheidungen zu beeinflussen, anstatt lediglich auf sie zu reagieren.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Structuring campaigns around local relevance',
+      pt: 'Estruturar campanhas em torno da relevância local',
+      de: 'Kampagnen nach lokaler Relevanz strukturieren',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'One of the most effective ways to stand out during peak and off-peak periods is to anchor campaigns in the local context. Guests may book a property, but they often travel for an experience tied to a place.',
+      pt: 'Uma das formas mais eficazes de se destacar em períodos de pico e fora de pico é ancorar as campanhas no contexto local. Os hóspedes podem reservar uma unidade, mas muitas vezes viajam por uma experiência ligada a um lugar.',
+      de: 'Eine der effektivsten Möglichkeiten, sich in Spitzen- und Nebensaisons abzuheben, besteht darin, Kampagnen im lokalen Kontext zu verankern. Gäste buchen zwar eine Unterkunft, reisen jedoch häufig wegen eines erlebnisbezogenen Anlasses an einem bestimmten Ort.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Local festivals, cultural events, exhibitions, sporting fixtures, and seasonal dining trends provide natural content hooks. In EMEA, this local variation is especially pronounced, with different public holidays, school breaks, and travel habits across countries and even regions.',
+      pt: 'Festivais locais, eventos culturais, exposições, competições desportivas e tendências gastronómicas sazonais oferecem ganchos naturais para conteúdos. Na região EMEA, esta variação local é particularmente acentuada, com diferentes feriados públicos, pausas escolares e hábitos de viagem entre países e até entre regiões.',
+      de: 'Lokale Festivals, kulturelle Veranstaltungen, Ausstellungen, Sportereignisse und saisonale Gastronomietrends bieten natürliche Content-Anknüpfungspunkte. In der EMEA-Region ist diese lokale Variation besonders ausgeprägt, da sich gesetzliche Feiertage, Schulferien und Reisegewohnheiten von Land zu Land und sogar von Region zu Region unterscheiden.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'The challenge is operational. Content teams often rely on property-level input, manual updates, and last-minute approvals. This increases the risk of outdated event information, inconsistent tone, or missed opportunities when multiple markets compete for attention at the same time.',
+      pt: 'O desafio é operacional. As equipas de conteúdos dependem frequentemente de contributos ao nível da unidade, atualizações manuais e aprovações de última hora. Isto aumenta o risco de informação de eventos desatualizada, tom inconsistente ou oportunidades perdidas quando vários mercados competem pela atenção ao mesmo tempo.',
+      de: 'Die Herausforderung ist operativer Natur. Content-Teams sind häufig auf Input auf Hotelebene, manuelle Aktualisierungen und kurzfristige Freigaben angewiesen. Dies erhöht das Risiko veralteter Veranstaltungsinformationen, uneinheitlicher Tonalität oder verpasster Chancen, wenn mehrere Märkte gleichzeitig um Aufmerksamkeit konkurrieren.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'A structured approach helps. High-performing hospitality teams typically:',
+      pt: 'Uma abordagem estruturada ajuda. As equipas de hotelaria com melhor desempenho tendem a:',
+      de: 'Ein strukturierter Ansatz hilft. Leistungsstarke Hospitality-Teams:',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Maintain a shared seasonal planning framework across regions',
+        'Identify tier-one events with broad appeal and tier-two events with local relevance',
+        'Create adaptable content themes that can be localized without rewriting from scratch',
+      ],
+      pt: [
+        'manter um enquadramento de planeamento sazonal partilhado entre regiões',
+        'identificar eventos de nível um com apelo amplo e eventos de nível dois com relevância local',
+        'criar temas de conteúdo adaptáveis que possam ser localizados sem reescrever tudo de raiz',
+      ],
+      de: [
+        'pflegen einen gemeinsamen saisonalen Planungsrahmen über Regionen hinweg',
+        'identifizieren Tier-1-Events mit breiter Anziehungskraft und Tier-2-Events mit lokaler Relevanz',
+        'entwickeln anpassbare Content-Themen, die lokalisiert werden können, ohne alles neu zu schreiben',
+      ],
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'This balance allows brands to remain locally authentic while protecting overall brand consistency.',
+      pt: 'Este equilíbrio permite às marcas manter autenticidade local, protegendo simultaneamente a consistência global da marca.',
+      de: 'Dieses Gleichgewicht ermöglicht es Marken, lokal authentisch zu bleiben und gleichzeitig die übergeordnete Markenkonsistenz zu wahren.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Planning for off-peak without going quiet',
+      pt: 'Planear para fora de época sem ficar em silêncio',
+      de: 'Nebensaison planen, ohne still zu werden',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Off-peak periods are often treated as gaps to be filled with discounts or tactical offers. While pricing remains important, content plays a different role during low-demand windows.',
+      pt: 'Os períodos fora de pico são muitas vezes tratados como lacunas a preencher com descontos ou ofertas táticas. Embora o preço continue a ser importante, o conteúdo desempenha um papel diferente em janelas de baixa procura.',
+      de: 'Nebensaisons werden oft als Lücken betrachtet, die mit Rabatten oder taktischen Angeboten gefüllt werden müssen. Während Preisgestaltung weiterhin wichtig ist, spielt Content in Phasen geringer Nachfrage eine andere Rolle.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Industry analysis from Skift highlights that travellers increasingly value inspiration, flexibility, and experiential storytelling outside peak seasons [3]. Content that focuses on slower travel, wellness, culinary experiences, or remote working can resonate strongly during these periods.',
+      pt: 'Análises do setor da Skift destacam que os viajantes valorizam cada vez mais inspiração, flexibilidade e storytelling experiencial fora das épocas altas [3]. Conteúdos focados em viagens mais lentas, bem-estar, experiências culinárias ou trabalho remoto podem ter forte ressonância nestes períodos.',
+      de: 'Branchenanalysen von Skift zeigen, dass Reisende außerhalb der Hochsaison zunehmend Wert auf Inspiration, Flexibilität und erlebnisorientiertes Storytelling legen [3]. Inhalte, die sich auf entschleunigtes Reisen, Wellness, kulinarische Erlebnisse oder Remote-Arbeit konzentrieren, können in diesen Phasen besonders gut ankommen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'From a content operations perspective, off-peak seasons are also an opportunity. Teams have more time to refresh evergreen pages, update property information, and test new formats across social media and owned channels. This groundwork often determines how effectively a brand performs when demand returns.',
+      pt: 'Do ponto de vista das operações de conteúdo, as épocas fora de pico são também uma oportunidade. As equipas têm mais tempo para atualizar páginas evergreen, rever informações das unidades e testar novos formatos nas redes sociais e nos canais próprios. Este trabalho de base determina muitas vezes a eficácia do desempenho da marca quando a procura regressa.',
+      de: 'Aus Sicht der Content-Operations bieten Nebensaisons ebenfalls Chancen. Teams haben mehr Zeit, Evergreen-Seiten zu aktualisieren, Objektinformationen zu pflegen und neue Formate über soziale Medien und eigene Kanäle zu testen. Diese Vorarbeit bestimmt oft, wie effektiv eine Marke performt, wenn die Nachfrage zurückkehrt.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Managing omnichannel complexity at peak moments',
+      pt: 'Gerir a complexidade omnicanal em momentos de pico',
+      de: 'Omnichannel-Komplexität in Spitzenzeiten managen',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Seasonal campaigns rarely live in one place. A single promotion or event-driven message may appear across brand websites, property pages, email, social media for hospitality brands, and third-party listings.',
+      pt: 'As campanhas sazonais raramente existem num único local. Uma única promoção ou mensagem associada a um evento pode aparecer em websites de marca, páginas de unidades, email, redes sociais para marcas hoteleiras e listagens de terceiros.',
+      de: 'Saisonale Kampagnen existieren selten nur an einem Ort. Eine einzelne Promotion oder ein ereignisbezogenes Messaging kann sich über Markenwebsites, Objektseiten, E-Mail, soziale Medien für Hotelmarken und Drittanbieter-Listings erstrecken.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'During peak periods, this creates pressure. Content updates must be fast, accurate, and aligned across channels. Yet many hospitality organizations still rely on fragmented tools and manual processes, making it difficult to maintain oversight.',
+      pt: 'Durante os períodos de pico, isto cria pressão. As atualizações de conteúdo têm de ser rápidas, precisas e alinhadas entre canais. No entanto, muitas organizações de hotelaria continuam a depender de ferramentas fragmentadas e processos manuais, dificultando a manutenção de uma visão global.',
+      de: 'In Spitzenzeiten erzeugt dies Druck. Content-Updates müssen schnell, korrekt und kanalübergreifend abgestimmt sein. Dennoch verlassen sich viele Hospitality-Organisationen weiterhin auf fragmentierte Tools und manuelle Prozesse, was es schwierig macht, den Überblick zu behalten.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'The result is familiar. Guests encounter conflicting information, expired offers, or inconsistent messaging depending on where they look. Beyond immediate revenue impact, this erodes trust and brand perception.',
+      pt: 'O resultado é familiar. Os hóspedes encontram informações contraditórias, ofertas expiradas ou mensagens inconsistentes consoante o canal consultado. Para além do impacto imediato nas receitas, isto corrói a confiança e a perceção da marca.',
+      de: 'Das Ergebnis ist bekannt. Gäste stoßen je nach Kanal auf widersprüchliche Informationen, abgelaufene Angebote oder inkonsistente Botschaften. Über den unmittelbaren Umsatzeffekt hinaus untergräbt dies Vertrauen und Markenwahrnehmung.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Modern hospitality content management increasingly focuses on centralizing control while allowing local teams to execute. When seasonal updates can be rolled out from a single source of truth, brands reduce risk and improve speed without sacrificing regional relevance.',
+      pt: 'A gestão moderna de conteúdos na hotelaria foca-se cada vez mais na centralização do controlo, permitindo ao mesmo tempo a execução local. Quando as atualizações sazonais podem ser implementadas a partir de uma única fonte de verdade, as marcas reduzem riscos e aumentam a rapidez sem sacrificar a relevância regional.',
+      de: 'Modernes Content-Management im Gastgewerbe konzentriert sich zunehmend auf die Zentralisierung der Kontrolle bei gleichzeitiger Ermöglichung lokaler Umsetzung. Wenn saisonale Updates aus einer zentralen „Single Source of Truth" ausgerollt werden können, reduzieren Marken Risiken und erhöhen die Geschwindigkeit, ohne regionale Relevanz einzubüßen.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Measuring what seasonal content actually delivers',
+      pt: 'Medir o que os conteúdos sazonais realmente entregam',
+      de: 'Messen, was saisonaler Content tatsächlich liefert',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Seasonal campaigns often end without a clear understanding of what worked. Performance data may sit in separate analytics tools, social platforms, or booking systems, making it hard to connect content activity to outcomes.',
+      pt: 'As campanhas sazonais terminam frequentemente sem uma compreensão clara do que funcionou. Os dados de desempenho podem estar dispersos por diferentes ferramentas de análise, plataformas sociais ou sistemas de reservas, tornando difícil ligar a atividade de conteúdos aos resultados.',
+      de: 'Saisonale Kampagnen enden oft ohne klares Verständnis dessen, was funktioniert hat. Leistungsdaten liegen möglicherweise in separaten Analysetools, sozialen Plattformen oder Buchungssystemen, was es erschwert, Content-Aktivitäten mit Ergebnissen zu verknüpfen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'According to McKinsey, organizations that link digital content performance to commercial metrics are significantly more likely to outperform peers [4]. In hospitality, this means understanding which seasonal stories drive engagement, which channels influence bookings, and where content investment delivers the strongest return.',
+      pt: 'De acordo com a McKinsey, as organizações que ligam o desempenho dos conteúdos digitais a métricas comerciais têm uma probabilidade significativamente maior de superar os seus pares [4]. Na hotelaria, isto significa compreender que histórias sazonais geram envolvimento, que canais influenciam reservas e onde o investimento em conteúdos oferece o retorno mais forte.',
+      de: 'Laut McKinsey sind Organisationen, die die Performance digitaler Inhalte mit kommerziellen Kennzahlen verknüpfen, deutlich häufiger erfolgreicher als ihre Wettbewerber [4]. Im Gastgewerbe bedeutet dies zu verstehen, welche saisonalen Geschichten Engagement erzeugen, welche Kanäle Buchungen beeinflussen und wo Content-Investitionen den höchsten Return liefern.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'This insight informs future planning. Over time, brands can shift from repeating the same seasonal playbook each year to refining campaigns based on evidence, not assumptions.',
+      pt: 'Este conhecimento informa o planeamento futuro. Com o tempo, as marcas podem deixar de repetir o mesmo manual sazonal todos os anos e passar a refinar campanhas com base em evidência, não em pressupostos.',
+      de: 'Diese Erkenntnisse fließen in die zukünftige Planung ein. Mit der Zeit können Marken davon abgehen, jedes Jahr dasselbe saisonale Playbook zu wiederholen, und Kampagnen auf Basis von Evidenz statt Annahmen verfeinern.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Looking ahead: seasonal planning at scale',
+      pt: 'Olhando para o futuro: planeamento sazonal à escala',
+      de: 'Ausblick: saisonale Planung im großen Maßstab',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'As hospitality portfolios grow more complex and guest expectations continue to rise, seasonal content planning is becoming a strategic capability rather than a marketing task. The shift is towards systems that support long-range planning, automate updates, and provide clear governance without slowing teams down.',
+      pt: 'À medida que os portefólios hoteleiros se tornam mais complexos e as expectativas dos hóspedes continuam a crescer, o planeamento de conteúdos sazonais está a tornar-se uma capacidade estratégica, e não apenas uma tarefa de marketing. A mudança aponta para sistemas que suportam planeamento de longo prazo, automatizam atualizações e fornecem governação clara sem abrandar as equipas.',
+      de: 'Mit zunehmender Komplexität von Hotelportfolios und steigenden Gästeerwartungen entwickelt sich die saisonale Content-Planung von einer Marketingaufgabe zu einer strategischen Fähigkeit. Der Trend geht hin zu Systemen, die langfristige Planung unterstützen, Updates automatisieren und klare Governance bieten, ohne Teams auszubremsen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'Across the industry, AI-enabled tools are increasingly used to support content creation, consistency checks, and performance analysis. Not as a replacement for human insight, but as a way to manage volume and complexity across properties, regions, and seasons.',
+      pt: 'Em todo o setor, ferramentas com suporte de IA são cada vez mais utilizadas para apoiar a criação de conteúdos, verificações de consistência e análise de desempenho. Não como substituto da perspetiva humana, mas como forma de gerir volume e complexidade entre unidades, regiões e épocas.',
+      de: 'Branchenweit werden KI-gestützte Tools zunehmend eingesetzt, um Content-Erstellung, Konsistenzprüfungen und Performance-Analysen zu unterstützen. Nicht als Ersatz für menschliche Expertise, sondern als Mittel, um Volumen und Komplexität über Häuser, Regionen und Saisons hinweg zu bewältigen.',
+    },
+  },
+  {
+    type: 'text',
+    value: {
+      en: 'For hospitality leaders, the opportunity lies in treating seasonal campaigns as part of a continuous content lifecycle. Planned early, governed centrally, and executed locally, seasonal content becomes a driver of sustained digital guest engagement rather than a recurring operational strain.',
+      pt: 'Para os líderes da hotelaria, a oportunidade reside em tratar as campanhas sazonais como parte de um ciclo contínuo de conteúdos. Planeados cedo, governados centralmente e executados localmente, os conteúdos sazonais tornam-se um motor de envolvimento digital sustentado dos hóspedes, em vez de uma pressão operacional recorrente.',
+      de: 'Für Führungskräfte im Gastgewerbe liegt die Chance darin, saisonale Kampagnen als Teil eines kontinuierlichen Content-Lebenszyklus zu betrachten. Früh geplant, zentral gesteuert und lokal umgesetzt wird saisonaler Content zu einem Treiber nachhaltiger digitaler Gästeinteraktion statt zu einer wiederkehrenden operativen Belastung.',
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'Summary',
+      pt: 'Resumo',
+      de: 'Zusammenfassung',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        'Seasonal content planning works best when campaigns are anchored to real travel demand patterns, not just calendar dates.',
+        'Local events, school holidays, and regional travel behaviour across EMEA should shape both timing and messaging.',
+        'Centralized content planning reduces the risk of outdated offers and inconsistent brand voice during peak periods.',
+        'Off-peak seasons present strong opportunities for storytelling, loyalty building, and long-lead bookings.',
+        'Modern hospitality content management increasingly relies on automation and oversight to scale seasonal campaigns effectively.',
+      ],
+      pt: [
+        'O planeamento de conteúdos sazonais funciona melhor quando as campanhas estão ancoradas em padrões reais de procura de viagem, e não apenas em datas do calendário.',
+        'Eventos locais, férias escolares e comportamentos regionais de viagem na EMEA devem moldar tanto o timing como as mensagens.',
+        'O planeamento centralizado de conteúdos reduz o risco de ofertas desatualizadas e de voz de marca inconsistente durante períodos de pico.',
+        'As épocas fora de pico apresentam fortes oportunidades para storytelling, fidelização e reservas com maior antecedência.',
+        'A gestão moderna de conteúdos na hotelaria depende cada vez mais de automação e supervisão para escalar campanhas sazonais de forma eficaz.',
+      ],
+      de: [
+        'Saisonale Content-Planung funktioniert am besten, wenn Kampagnen an realen Reisemustern ausgerichtet sind und nicht nur an Kalenderdaten.',
+        'Lokale Veranstaltungen, Schulferien und regionale Reisegewohnheiten in der EMEA-Region sollten sowohl Timing als auch Messaging prägen.',
+        'Zentralisierte Content-Planung reduziert das Risiko veralteter Angebote und inkonsistenter Markenstimme in Spitzenzeiten.',
+        'Nebensaisons bieten starke Chancen für Storytelling, Kundenbindung und langfristige Buchungen.',
+        'Modernes Content-Management im Gastgewerbe setzt zunehmend auf Automatisierung und Aufsicht, um saisonale Kampagnen effektiv zu skalieren.',
+      ],
+    },
+  },
+  {
+    type: 'title',
+    value: {
+      en: 'References',
+      pt: 'Referências',
+      de: 'Referenzen',
+    },
+  },
+  {
+    type: 'list',
+    value: {
+      en: [
+        '[1] UNWTO, Tourism Trends and Seasonality in Europe, 2023.',
+        '[2] Google, Travel Search Trends and Booking Behaviour, 2024.',
+        '[3] Skift, Global Travel Trends Report, 2024.',
+        '[4] McKinsey, The Value of Data-Driven Marketing, 2023.',
+      ],
+      pt: [
+        '[1] UNWTO, Tourism Trends and Seasonality in Europe, 2023.',
+        '[2] Google, Travel Search Trends and Booking Behaviour, 2024.',
+        '[3] Skift, Global Travel Trends Report, 2024.',
+        '[4] McKinsey, The Value of Data-Driven Marketing, 2023.',
+      ],
+      de: [
+        '[1] UNWTO, Tourism Trends and Seasonality in Europe, 2023.',
+        '[2] Google, Travel Search Trends and Booking Behaviour, 2024.',
+        '[3] Skift, Global Travel Trends Report, 2024.',
+        '[4] McKinsey, The Value of Data-Driven Marketing, 2023.',
+      ],
+    },
+  },
+]
+
 /**
  * Article definition:
  * Represents a single article with metadata and content.
@@ -1122,6 +1442,18 @@ const brandConsistencyContent = [
  *       See the `content` object documentation for details on structure.
  */
 export default [
+  {
+    id: 4,
+    img: '/article-4.jpg',
+    title: {
+      en: 'Content Planning Tips for Seasonal Hotel Campaigns',
+      pt: 'Dicas de planeamento de conteúdos para campanhas sazonais',
+      de: 'Content-Planungstipps für saisonale Hotelkampagnen',
+    },
+    date: '2026-03-02',
+    author: 'Maria, Mar CMS',
+    content: seasonalCampaignsContent,
+  },
   {
     id: 3,
     img: '/article-3.jpg',
