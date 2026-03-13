@@ -276,11 +276,10 @@
             <div class="section-label desktop-only">{{ $t('v2_shift_label') }}</div>
             <h2 class="section-title desktop-only">{{ $t('v2_shift_title') }}</h2>
             <p class="section-body">{{ $t('v2_shift_text') }}</p>
-            <div class="shift-pillars">
-              <span class="pill-tag">{{ $t('v2_shift_pillar_1') }}</span>
-              <span class="pill-tag">{{ $t('v2_shift_pillar_2') }}</span>
-              <span class="pill-tag">{{ $t('v2_shift_pillar_3') }}</span>
-              <span class="pill-tag">{{ $t('v2_shift_pillar_4') }}</span>
+            <div class="shift-statements">
+              <p class="shift-statement">{{ $t('v2_shift_statement_1') }}</p>
+              <p class="shift-statement">{{ $t('v2_shift_statement_2') }}</p>
+              <p class="shift-statement">{{ $t('v2_shift_statement_3') }}</p>
             </div>
           </div>
         </div>
@@ -586,7 +585,7 @@
                 </circle>
               </svg>
             </div>
-<h3>{{ $t('v2_partner_benefit_1_title') }}</h3><p>{{ $t('v2_partner_benefit_1_text') }}</p>
+            <p>{{ $t('v2_partner_benefit_1') }}</p>
           </div>
           <div class="partner-card">
             <div class="partner-icon">
@@ -605,7 +604,7 @@
                 </circle>
               </svg>
             </div>
-<h3>{{ $t('v2_partner_benefit_2_title') }}</h3><p>{{ $t('v2_partner_benefit_2_text') }}</p>
+            <p>{{ $t('v2_partner_benefit_2') }}</p>
           </div>
           <div class="partner-card">
             <div class="partner-icon">
@@ -625,7 +624,7 @@
                 </circle>
               </svg>
             </div>
-<h3>{{ $t('v2_partner_benefit_3_title') }}</h3><p>{{ $t('v2_partner_benefit_3_text') }}</p>
+            <p>{{ $t('v2_partner_benefit_3') }}</p>
           </div>
           <div class="partner-card">
             <div class="partner-icon">
@@ -657,7 +656,7 @@
                 </circle>
               </svg>
             </div>
-<h3>{{ $t('v2_partner_benefit_4_title') }}</h3><p>{{ $t('v2_partner_benefit_4_text') }}</p>
+            <p>{{ $t('v2_partner_benefit_4') }}</p>
           </div>
           <div class="partner-card">
             <div class="partner-icon">
@@ -677,7 +676,7 @@
                 </path>
               </svg>
             </div>
-<h3>{{ $t('v2_partner_benefit_5_title') }}</h3><p>{{ $t('v2_partner_benefit_5_text') }}</p>
+            <p>{{ $t('v2_partner_benefit_5') }}</p>
           </div>
         </div>
         <div class="partner-cta">
@@ -738,7 +737,7 @@ definePageMeta({ layout: 'landing' })
 useHead({
   title: 'Marketing Operating Layer for Hospitality | Mar-CMS',
   meta: [
-    { name: 'description', content: 'Mar aligns your content, campaigns, and digital presence so every interaction strengthens your brand. Built for hospitality.' },
+    { name: 'description', content: 'Connect content, campaigns, and performance in one structured system built for hospitality teams.' },
     { name: 'keywords', content: 'hospitality marketing platform, hotel marketing automation, campaign management hospitality, cross-channel marketing hotels, brand alignment hospitality' }
   ],
   link: [
@@ -754,7 +753,7 @@ const availableLocales = computed(() => locales.value.map(l => ({ code: l.code }
 const runtimeConfig = useRuntimeConfig()
 const calendarUrl = runtimeConfig.public.google_calendar_url || 'https://calendar.app.google/SRb41cEHAuApFQ8AA'
 const { gtag } = useGtag()
-function trackCta() { gtag('event', 'Book a Call') }
+function trackCta() { gtag('event', 'Book a Demo') }
 const langOpen = ref(false)
 const mobileMenu = ref(false)
 const openFaq = ref(null)
@@ -906,8 +905,8 @@ function toggleFaq(index) { openFaq.value = openFaq.value === index ? null : ind
 .shift-section { padding: var(--v2-section-gap) 0; background: linear-gradient(180deg, var(--v2-bg-deep) 0%, var(--v2-bg-primary) 50%, var(--v2-bg-deep) 100%); }
 .shift-visual { position: relative; height: 320px; display: flex; align-items: center; justify-content: center; }
 .shift-svg { width: 300px; height: 300px; }
-.shift-pillars { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; }
-.pill-tag { padding: 6px 14px; background: rgba(0,201,167,0.08); border: 1px solid rgba(0,201,167,0.15); border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--v2-accent); }
+.shift-statements { margin-top: 24px; }
+.shift-statement { font-size: 16px; color: var(--v2-text-secondary); line-height: 1.8; margin: 0; }
 
 /* ============================================= */
 /* CAPABILITIES                                   */
@@ -951,8 +950,7 @@ function toggleFaq(index) { openFaq.value = openFaq.value === index ? null : ind
 .partner-card:hover { transform: translateY(-4px); border-color: rgba(0,201,167,0.15); }
 .partner-icon { width: 64px; height: 64px; margin: 0 auto 16px; }
 .partner-icon svg { width: 100%; height: 100%; }
-.partner-card h3 { font-family: var(--v2-font-display); font-size: 15px; font-weight: 700; margin-bottom: 8px; }
-.partner-card p { font-size: 13px; color: var(--v2-text-secondary); line-height: 1.9; }
+.partner-card p { font-size: 14px; color: var(--v2-text-secondary); line-height: 1.6; font-weight: 600; }
 .partner-cta { text-align: center; margin-top: 48px; }
 
 /* ============================================= */
