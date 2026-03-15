@@ -3,9 +3,9 @@ import type { RouterConfig } from '@nuxt/schema'
 export default {
   routes: (_routes) => [
     {
-      name: 'blog',
-      path: '/blog',
-      component: () => import('~/pages/index.vue')
+      name: 'legacy',
+      path: '/legacy',
+      component: () => import('~/pages/legacy.vue')
     }
   ],
 } satisfies RouterConfig
