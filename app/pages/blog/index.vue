@@ -4,7 +4,7 @@
     <nav class="nav">
       <div class="nav-inner">
         <NuxtLink :to="$localePath('/')" class="nav-logo">
-          <img src="/logo.png" alt="Mar CMS" class="nav-logo-img">
+          <NuxtImg src="/logo.png" alt="Mar CMS" class="nav-logo-img" width="32" height="32" />
           <div class="nav-logo-text">MAR <span>CMS</span></div>
         </NuxtLink>
         <div class="nav-links">
@@ -18,7 +18,7 @@
         </div>
         <div class="nav-lang" :class="{ open: langOpen }">
           <button class="lang-toggle" @click="langOpen = !langOpen">
-            <img :src="`/${locale}.png`" :alt="locale" class="lang-flag">
+            <NuxtImg :src="`/${locale}.png`" :alt="locale" class="lang-flag" width="40" height="40" />
             <svg class="lang-chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5l3 3 3-3"/></svg>
           </button>
           <div class="lang-dropdown">
@@ -29,7 +29,7 @@
               :class="{ active: locale === lang.code }"
               @click="setLocale(lang.code); langOpen = false"
             >
-              <img :src="`/${lang.code}.png`" :alt="lang.code" class="lang-flag">
+              <NuxtImg :src="`/${lang.code}.png`" :alt="lang.code" class="lang-flag" width="40" height="40" />
               <span>{{ lang.code.toUpperCase() }}</span>
             </button>
           </div>
@@ -62,7 +62,7 @@
               :class="{ active: locale === lang.code }"
               @click="setLocale(lang.code)"
             >
-              <img :src="`/${lang.code}.png`" :alt="lang.code" class="lang-flag">
+              <NuxtImg :src="`/${lang.code}.png`" :alt="lang.code" class="lang-flag" width="40" height="40" />
               <span>{{ lang.code.toUpperCase() }}</span>
             </button>
           </div>
@@ -90,7 +90,7 @@
             class="article-card featured"
           >
             <div class="article-img-wrap">
-              <img :src="article.img" :alt="typeof article.title === 'object' ? article.title[locale] : article.title" class="article-img">
+              <NuxtImg :src="article.img" :alt="typeof article.title === 'object' ? article.title[locale] : article.title" class="article-img" width="800" height="450" />
             </div>
             <div class="article-info">
               <h2>{{ typeof article.title === 'object' ? article.title[locale] : article.title }}</h2>
@@ -108,7 +108,7 @@
             class="article-card"
           >
             <div class="article-img-wrap small">
-              <img :src="article.img" :alt="typeof article.title === 'object' ? article.title[locale] : article.title" class="article-img">
+              <NuxtImg :src="article.img" :alt="typeof article.title === 'object' ? article.title[locale] : article.title" class="article-img" width="600" height="338" loading="lazy" />
             </div>
             <div class="article-info">
               <h3>{{ typeof article.title === 'object' ? article.title[locale] : article.title }}</h3>
@@ -124,7 +124,7 @@
       <div class="container">
         <div class="footer-inner">
           <div class="footer-brand">
-            <img src="/logo.png" alt="Mar CMS" class="footer-logo-img">
+            <NuxtImg src="/logo.png" alt="Mar CMS" class="footer-logo-img" width="28" height="28" loading="lazy" />
             <div class="nav-logo-text" style="font-size:16px">MAR <span>CMS</span></div>
           </div>
           <div class="footer-links">

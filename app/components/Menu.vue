@@ -3,10 +3,10 @@
     class="navbar flex gap-6 justify-between fixed top-5 left-1/2 transform -translate-x-1/2 bg-black rounded-full shadow-lg px-6 py-2 z-50"
   >
     <div class="text-white flex items-center gap-1 w-[140px]">
-      <img
+      <NuxtImg
         class="logo"
         src="~/assets/images/logo.png"
-      ></img>
+      ></NuxtImg>
       <div class="font-bold text-xl">
         MAR
       </div>

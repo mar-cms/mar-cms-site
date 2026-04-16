@@ -4,7 +4,7 @@
     <nav class="nav">
       <div class="nav-inner">
         <a href="#" class="nav-logo">
-          <img src="/logo.png" alt="Mar CMS" class="nav-logo-img">
+          <NuxtImg src="/logo.png" alt="Mar CMS" class="nav-logo-img" />
           <div class="nav-logo-text">MAR <span>CMS</span></div>
         </a>
         <div class="nav-links">
@@ -475,7 +475,7 @@
       <div class="container">
         <div class="footer-inner">
           <div class="footer-brand">
-            <img src="/logo.png" alt="Mar CMS" class="footer-logo-img">
+            <NuxtImg src="/logo.png" alt="Mar CMS" class="footer-logo-img"/>
             <div class="nav-logo-text" style="font-size:16px">MAR <span>CMS</span></div>
           </div>
           <div class="footer-links">

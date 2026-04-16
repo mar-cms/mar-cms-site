@@ -14,7 +14,7 @@
             :to="$localePath(`/blog/${article.id}`)"
             class="block group"
           >
-            <img
+            <NuxtImg
               :src="article.img"
               :alt="article.title"
               class="w-full h-[250px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
@@ -45,7 +45,7 @@
             :to="$localePath(`/blog/${article.id}`)"
             class="block group"
           >
-            <img
+            <NuxtImg
               :src="article.img"
               :alt="article.title"
               class="w-full h-[150px] object-cover rounded-md transition-transform duration-300 group-hover:scale-105"

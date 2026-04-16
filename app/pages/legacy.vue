@@ -31,7 +31,7 @@
     <h1 class="font-bold">{{$t('features')}}</h1>
     <section class="section">
       <div class="feature">
-        <img class="image" src="~/assets/images/communication_styles.png"></img>
+        <NuxtImg class="image" src="~/assets/images/communication_styles.png"></NuxtImg>
         <div class="text">
           <h3 class="font-semibold">{{$t('features_title')}}</h3>
           <p>
@@ -41,7 +41,7 @@
       </div>
 
       <div class="feature reverse">
-        <img class="image" src="~/assets/images/content_analysis.png"></img>
+        <NuxtImg class="image" src="~/assets/images/content_analysis.png"></NuxtImg>
         <div class="text">
           <h3 class="font-semibold">{{$t('feature_content')}}</h3>
           <p>
@@ -51,7 +51,7 @@
       </div>
 
       <div class="feature">
-        <img class="image" src="~/assets/images/platform_versions.png"></img>
+        <NuxtImg class="image" src="~/assets/images/platform_versions.png"></NuxtImg>
         <div class="text">
           <h3 class="font-semibold">{{$t('feature_multilingual')}}</h3>
           <p>
@@ -61,7 +61,7 @@
       </div>
 
       <div class="feature reverse">
-        <img class="image" src="~/assets/images/campaign_manager.png"></img>
+        <NuxtImg class="image" src="~/assets/images/campaign_manager.png"></NuxtImg>
         <div class="text">
           <h3 class="font-semibold">{{$t('feature_campaign')}}</h3>
           <p>
@@ -81,7 +81,7 @@
       </div> -->
 
       <div class="feature">
-        <img class="image" src="~/assets/images/dashboards.png"></img>
+        <NuxtImg class="image" src="~/assets/images/dashboards.png"></NuxtImg>
         <div class="text">
           <h3 class="font-semibold">{{$t('feature_analytics')}}</h3>
           <p>
@@ -302,7 +302,7 @@
     </div>
     <div class="mt-10 flex w-full flex-wrap-reverse md:flex-nowrap gap-8 justify-center md:justify-start">
       <div class="flex flex-col md:w-3/4 items-center md:items-start justify-center md:justify-start">
-        <img src="~/assets/images/logo.png" class="w-24"></img>
+        <NuxtImg src="~/assets/images/logo.png" class="w-24"></NuxtImg>
         <div class="text-2xl"><span class="font-bold">MAR</span> CMS</div>
         <div class="text-gray-400 text-center mt-2">© 2025 MAR CMS Technologies. All rights reserved.</div>
       </div>
